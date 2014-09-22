@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Combo Box module</title>
+	<style>
+		.combo-item:hover {
+			cursor: pointer;
+		}
+
+		#combo-container {
+			display: inline-block;
+		}
+
+		.combo-item {
+			border: 1px solid black;
+			border-radius: 5px;
+			padding: 10px;
+			margin-bottom: 5px;
+			text-align: center;
+			white-space: nowrap;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div id="combo-container">
+		
+	</div>
+	<script id="combo-template" type="text/x-handlebars-template">
+		{{#each person}}
+		<div class="combo-item" id="person-item-{{id}}">
+			<strong class="person-name">{{name}}</strong>
+			<p class="person-age">Age: {{age}}</p>
+			<img src="{{avatarUrl}}" width="100px" />
+		</div>
+		{{/each}}
+	</script>
+	<script src="Scripts/libs/require.js" data-main="Scripts/app"></script>
+</body>
+</html>

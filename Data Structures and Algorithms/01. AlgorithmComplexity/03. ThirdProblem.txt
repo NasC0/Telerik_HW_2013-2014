@@ -1,0 +1,16 @@
+* What is the expected running time of the following C# code? Explain why.
+long CalcSum(int[,] matrix, int row)
+{
+    long sum = 0;
+    for (int col = 0; col < matrix.GetLength(0); col++) 
+        sum += matrix[row, col];
+    if (row + 1 < matrix.GetLength(1)) 
+        sum += CalcSum(matrix, row + 1);
+    return sum;
+}
+
+Console.WriteLine(CalcSum(matrix, 0));
+
+Assume the input matrix has size of n * m.
+
+Explanation: Worst case scenario is algorithm complexity O(n ^ 2) since for each element (if the equality check goes through) we fall in another row ... n loop, which is effectively a O(n ^ 2) complexity.

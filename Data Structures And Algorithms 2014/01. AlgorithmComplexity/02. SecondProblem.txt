@@ -1,0 +1,12 @@
+long CalcCount(int[,] matrix)
+{
+    long count = 0;
+    for (int row=0; row<matrix.GetLength(0); row++)
+        if (matrix[row, 0] % 2 == 0)
+            for (int col=0; col<matrix.GetLength(1); col++)
+                if (matrix[row,col] > 0)
+                    count++;
+    return count;
+}
+
+I assume the complexity is O(n * m), since we have an outer loop to n, and an inner loop to m which could be initialized for each row.

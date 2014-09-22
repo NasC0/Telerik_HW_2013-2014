@@ -1,0 +1,15 @@
+A list of the top 10 programming languages by popularity, as described by Tiobe Software (http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html)
+1. C - The mother of all things programming, C is a general-purpose programming language. Doesn't support OOP at the start, which causes it to evolve to C++. Can run on any OS
+2. Java - Platform independant, can run on virtually any OS, highly class-based and object-oriented. Has automatic garbage collector (pointer deallocation)
+3. Objective-C - General purpose, object-oriented language, mostly utiliszed by Apple to develop applications for OS X and iOS. Derrives it's object syntax from Smalltalk.
+4. C++ - Adds the object-oriented model to C, maybe the most used programming language in computer history.
+5. PHP - Used mostly as a server-side scripting language, PHP is interpreted rather than compiled, which makes it more dynamic and some say flexible than it's compiler-based counterparts.
+6. C# - Compiled object-oriented language, platform-specific to Microsoft products.
+7. Visual Basic - Derrived from BASIC, event-driven programming language. Not a part of the .NET platform, although in 2008 Microsoft ended it's extended support and released it's designated successor - Visual Basic .Net
+8. Python - General purpose language. Supports multiple programming paradigms, including object-oriented, functional and procedural style code. Python implements a dynamic type system, as well as an automatic memory manager (unlike C and C++)
+9. Transact-SQL - Microsoft's extension to SQL (Structured Query Language). Used for querying database systems.
+10. JavaScript - Interpreted, client-side scripting language, used mostly in web application development. Later JavaScript frameworks (like Node.js) make this language more and more popular in server-side scripting as well.
+
+Resources:
+www.wikipedia.org
+http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html

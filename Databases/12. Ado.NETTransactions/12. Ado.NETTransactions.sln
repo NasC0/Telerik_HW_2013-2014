@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmDb.Model", "AtmDb.Model\AtmDb.Model.csproj", "{1C33CCE3-D4A1-42F1-BDD5-E042F5BB3965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmDb.Data", "AtmDb.Data\AtmDb.Data.csproj", "{67C869D1-F7EE-4478-B68A-E5DE38295D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtmDb.ConsoleClient", "AtmDb.ConsoleClient\AtmDb.ConsoleClient.csproj", "{49BF4C05-3528-493A-8EB0-E77EA908BBA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C33CCE3-D4A1-42F1-BDD5-E042F5BB3965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C33CCE3-D4A1-42F1-BDD5-E042F5BB3965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C33CCE3-D4A1-42F1-BDD5-E042F5BB3965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C33CCE3-D4A1-42F1-BDD5-E042F5BB3965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C869D1-F7EE-4478-B68A-E5DE38295D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C869D1-F7EE-4478-B68A-E5DE38295D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C869D1-F7EE-4478-B68A-E5DE38295D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C869D1-F7EE-4478-B68A-E5DE38295D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49BF4C05-3528-493A-8EB0-E77EA908BBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BF4C05-3528-493A-8EB0-E77EA908BBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BF4C05-3528-493A-8EB0-E77EA908BBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BF4C05-3528-493A-8EB0-E77EA908BBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

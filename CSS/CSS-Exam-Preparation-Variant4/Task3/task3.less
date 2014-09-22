@@ -1,0 +1,173 @@
+﻿.nth-div-gradient() {
+    background: rgb(255,255,255); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlY2VlZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,238,239,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(236,238,239,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,238,239,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,238,239,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,238,239,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,238,239,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eceeef',GradientType=0 ); /* IE6-8 */
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*End Reset*/
+
+body {
+    width: 960px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+
+    #wrapper {
+        margin-left: 20px;
+        margin-top: 20px;
+        border-collapse: collapse;
+
+        & > div {
+            padding: 0 5px;
+            width: 140px;
+            height: 260px;
+            float: left;
+            border: 2px solid #D3D7DA;
+            border-left: none;
+            border-right: none;
+
+            &:first-of-type {
+                border-left: 2px solid #D3D7DA;
+            }
+
+            &:nth-of-type(even) {
+                height: 280px;
+                border-left: 2px solid #D3D7DA;
+                border-right: 2px solid #D3D7DA;
+                .nth-div-gradient();
+            }
+
+            &:nth-of-type(1) {
+                hgroup {
+                    background: url(imgs/install.png) no-repeat;
+                }
+            }
+
+            &:nth-of-type(2) {
+                hgroup {
+                    background: url(imgs/tuneUp.png) no-repeat;
+                }
+            }
+
+            &:nth-of-type(3) {
+                hgroup {
+                    background: url(imgs/manage.png) no-repeat;
+                }
+            }
+
+            &:nth-of-type(4) {
+                hgroup {
+                    background: url(imgs/openSource.png) no-repeat;
+                }
+            }
+
+            &:nth-of-type(5) {
+                hgroup {
+                    background: url(imgs/twitter.png) no-repeat;
+                }
+            }
+
+            &:nth-of-type(6) {
+                hgroup {
+                    background: url(imgs/about.png) no-repeat;
+                }
+            }
+        }
+
+        div {
+            hgroup {
+                padding-left: 40px;
+                margin-top: 10px;
+                height: 60px;
+                vertical-align: bottom;
+
+                h3 {
+                    font-weight: bold;
+                }
+
+                h2 {
+                    font-weight: bold;
+                }
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: #C72D2F;
+                margin-top: 5px;
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+
+            &.yellowBox {
+                border: 1px solid #FFFF00;
+                background: #FFFFDD;
+
+                a {
+                    display: inline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+One-to-many: The most common type of relation between tables. A single table row can be related to many rows in another table. I.E. country to cities - There are many cities in Bulgaria, all of which are related to the country, which is unique.
+
+One-to-one: A unique row in a table is related to only one other unique row in another table. I.E. one person has one pasport.
+
+Many-to-many: Many rows in a table can be related to many other rows in another table. I.E. In a school there are many students, all of which have more than one class. All classes have more than one student enrolled.

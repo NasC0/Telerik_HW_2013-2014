@@ -1,0 +1,1 @@
+A "table" in database terms is a means of storing data on the server in rows and columns. Relations can be formed between these tables, to facilitate easier database normalization and data separation.

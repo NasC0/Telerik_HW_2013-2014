@@ -1,0 +1,7 @@
+ipsum: 14
+sit: 11
+amet: 11
+vel: 10
+lorem: 9
+dolor: 8
+curabitur: 4

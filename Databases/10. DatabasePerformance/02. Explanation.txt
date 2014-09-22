@@ -1,0 +1,4 @@
+After adding an index to the date column, the search for the same range between 2001-01-01 and 2005-12-31 still took about 30 seconds.
+However, if you search for a specific date, say 2000-01-01, if the Date column is indexed the result is almost instant, with
+estimated Subtree Cost of 7.02299
+If you remove the index and repeat the search, it takes about 2.5 seconds with Subtree Cost of 121.942

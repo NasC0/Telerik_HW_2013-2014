@@ -1,0 +1,784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f05fdf37-6501-48d6-a2c4-f3c222a6de39" name="StrategyPatternDiagram" linkedPackageId="8aaf4e49-0cb5-45c6-bccf-14099a5b3314" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="f3cfae55-717d-4d81-92ea-db824ceecb78" name="IRenderStrategy" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="bf43d5ae-4107-4e78-8bac-d77a38af049c" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DIRenderStrategy" tag="ViewCode">
+            <elementDefinition Id="5f27afc7-cd69-40e8-939c-3a2c7aa3219d" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="38a93b6d-8d9a-448c-9499-c014caac314e" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="398205eb-5ad2-4396-92ae-605b36fa97b1" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1bd679ea-b8ba-45b4-96cd-69f3698232e5">
+                <propertyInstance Id="a4ca3af5-9a7d-4588-97aa-bcde62acb9fd" name="ClrAttributes">
+                  <elementDefinition Id="b6b64e32-fadb-4050-9fe3-2c79a8baddb9" />
+                </propertyInstance>
+                <elementDefinition Id="64cc40dc-ba84-4000-acea-f7a407ce6807" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b5dec41f-46f8-44bc-8327-ab74e21304e1">
+                <propertyInstance Id="edfbf97f-3cca-4118-b008-a245aba46769" name="IsPartial" value="false">
+                  <elementDefinition Id="088a5638-1ee5-457e-bd8b-d7b291f50555" />
+                </propertyInstance>
+                <elementDefinition Id="e171d7fe-b0a0-4fe5-b60c-d92adb2c7ce4" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b980697a-5af5-4032-8868-6e72703959a7">
+                <propertyInstance Id="70ff8fef-e085-417a-8df5-0e3eaddd5cdf" name="IsUnsafe" value="false">
+                  <elementDefinition Id="004f8877-bf0e-47ea-822f-980449c4315f" />
+                </propertyInstance>
+                <elementDefinition Id="f0fc92d2-0e12-42eb-a810-ffb4aba71a41" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="024ff217-045a-47d5-bf1c-e7fc0651bcea">
+                <propertyInstance Id="5f61c343-91ce-4589-9622-fb15cc02357e" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="ae7172c5-d2ed-48c3-b239-7b40e9733abe" />
+                </propertyInstance>
+                <elementDefinition Id="17a6db0d-31d8-4f6b-89fc-b45708d9ac76" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="95e92205-0ad0-44af-a2fc-42ef389ab34d" />
+        <ownedOperations>
+          <operation Id="d6659f33-6a74-4148-9bae-4635958f38e0" name="RenderGraph" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="0d83497a-3d0f-4288-a970-226ec509de7a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DIRenderStrategy Member%3D(Name%3DRenderGraph OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DData)])" tag="ViewCode">
+                <elementDefinition Id="7b854769-2a09-4af2-9e84-cb711dcabe89" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="9040d30d-8a11-42bd-a5bf-f19bd9c548a2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="aee404ec-baa2-4d85-b4b0-cee0f338b8a0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="36468e1c-4ba9-45c0-a1a1-dbdda6610285">
+                    <propertyInstance Id="0b513353-f60a-4249-93ae-99d594f33298" name="ClrAttributes">
+                      <elementDefinition Id="c7d4b238-6d9c-48dc-b486-1dfae34b43e7" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b55c20b-3c08-4eb1-b204-1be0b2d6276d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1234550d-0670-470b-8d0d-f9eb9d74434f">
+                    <propertyInstance Id="e6a6c86b-4d7a-48d7-8a66-1966c7434083" name="IsPartial" value="false">
+                      <elementDefinition Id="b37e02ca-795a-42f5-8ca9-d718fcd83358" />
+                    </propertyInstance>
+                    <elementDefinition Id="01c9361c-a57d-497a-b180-ff7dd90b3547" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f6d14c65-0f67-4cc4-a13f-136f1f909842">
+                    <propertyInstance Id="3d42a568-0f65-4715-a7e7-ca87f28f87de" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c3b87e06-61fb-41b1-ac6c-089fb6bd26f4" />
+                    </propertyInstance>
+                    <elementDefinition Id="7743af1a-aa6b-49df-ac5c-08b0168734e3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="31cc33c1-4b63-4ea2-b85c-f4969ffa62a6">
+                    <propertyInstance Id="45614cb5-2c95-477e-b573-b20123fa1af5" name="Inheritance" value="none">
+                      <elementDefinition Id="aa5c0cb8-c4e2-4a6a-9564-4177bf001803" />
+                    </propertyInstance>
+                    <elementDefinition Id="ac6325a8-f5b2-4fc9-8a46-d1270f685218" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e8629b94-a8f1-453d-b73f-b7d9b3cede10">
+                    <propertyInstance Id="250bb915-2458-4a8b-9008-5d0cd4055a97" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="93f29f29-7375-4017-92fb-ffc6e1a912e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="875cf38a-2458-4497-913e-76e8e6a7698b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="94e274ad-bd42-455b-8fb2-c9198ea13ac2">
+                    <propertyInstance Id="a1c089a1-52e6-4d09-b248-ed21d0b7d468" name="params" value="false">
+                      <elementDefinition Id="33891636-b3ae-41ad-b622-fc13f25e2e93" />
+                    </propertyInstance>
+                    <elementDefinition Id="af0df8f4-3734-4c4a-96aa-b453428dfda1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9f25b23c-dada-4ec4-ac07-ab6a9816e985" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d115897f-f04b-4b6f-b646-a311e9578de1" direction="Return">
+                  <elementDefinition Id="8d205ae4-36fb-4bae-8cbe-8940a7a86287" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="32826437-4f5f-447e-ad2f-b2cee0022473" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="32bfdd5e-cb9c-4b5b-84ca-3aaee2086308" name="graphData" direction="In">
+                  <referencesInternal>
+                    <reference Id="9106c4e5-bf7f-4b87-8c91-999e5de05be6" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DIRenderStrategy Member%3D(Name%3DRenderGraph OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DData)]) ParameterIdentifier%3DgraphData" tag="ViewCode">
+                      <elementDefinition Id="abd603c6-7c87-4845-9632-f8f567d9085d" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="5c1ae42b-2f51-4bc6-ad3b-bd164bc24cca" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cba894b6-9c24-4e04-a75c-24e5b5bf2e8a" LastKnownName="Data" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="32826437-4f5f-447e-ad2f-b2cee0022473" name="Image" isAbstract="false" isLeaf="false" cachedFullName="StrategyPatternModeling::StrategyPatternExample::Image">
+        <elementDefinition Id="7df95c6d-04b9-4f66-a7f6-e461994e2eeb" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cba894b6-9c24-4e04-a75c-24e5b5bf2e8a" name="Data" isAbstract="false" isLeaf="false" cachedFullName="StrategyPatternModeling::StrategyPatternExample::Data">
+        <elementDefinition Id="70d746ec-2ad0-406e-9647-7f1d5b19e709" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9698fb77-1dfd-4262-831a-def5b16a3016" name="MobileScreenRender" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="fcc24197-225b-479a-bfb8-2a0be8a9c31a" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DMobileScreenRender" tag="ViewCode">
+            <elementDefinition Id="56739eca-1282-410f-a4a6-dee3c681fbf4" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="566fcc29-e4f1-4738-9cdd-168655214450" name="class" profile="CSharpProfile">
+            <elementDefinition Id="60359167-8650-4dd8-becf-d701b5c24555" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2629fd13-f8d5-4ec8-8331-a6a8c368d23a">
+                <propertyInstance Id="094305f6-8daa-4582-88c3-4d6d438e6555" name="ClrAttributes">
+                  <elementDefinition Id="743f1c40-b119-4d8c-876c-f211a76adb12" />
+                </propertyInstance>
+                <elementDefinition Id="1447e657-c34f-4088-8e12-06357763e965" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a8c19d8f-8572-4b9e-84e0-fd95354e26b4">
+                <propertyInstance Id="363c4b81-2e9a-4bac-b9ee-a6caaa6c3563" name="IsPartial" value="false">
+                  <elementDefinition Id="b212cf1b-b479-4d6b-9994-cb73655f7426" />
+                </propertyInstance>
+                <elementDefinition Id="11e03bbc-5ef1-486b-897c-ad67924ee71b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="002c254f-49fc-4208-b1a7-ba38407ad69a">
+                <propertyInstance Id="904a61a6-3913-43a3-8695-da46487474a5" name="IsStatic" value="False">
+                  <elementDefinition Id="c5437046-2d63-4edb-842f-3f76708919d0" />
+                </propertyInstance>
+                <elementDefinition Id="b7d019e9-7604-42ea-8594-08e59b12d52d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f981a58e-82a2-43fc-9b87-cbefe9caf68f">
+                <propertyInstance Id="e92d3de9-f70e-499f-b84e-813f1659210d" name="IsUnsafe" value="false">
+                  <elementDefinition Id="060e5829-60c6-4045-98c5-6a042257b78f" />
+                </propertyInstance>
+                <elementDefinition Id="bd15944d-8faf-44d7-9fc7-3cfeb5975e82" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5c01dda1-8eee-49b3-83d6-7cc1ae260d84">
+                <propertyInstance Id="9b4a20fd-598b-45c1-bbbb-79c661890352" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="ea81121a-5c6a-43d1-9cbc-3e52fb8c5c61" />
+                </propertyInstance>
+                <elementDefinition Id="d035d142-1fcf-4245-82bd-ce77e03d7000" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="06f76134-e666-4e19-ab33-b51160c0bf9d" />
+        <suppliersInternal>
+          <interfaceRealization Id="fd604d29-ec10-47dc-bcd5-aeef1e6a6f0b">
+            <interfaceMoniker Id="f3cfae55-717d-4d81-92ea-db824ceecb78" LastKnownName="IRenderStrategy" />
+            <elementDefinition Id="e8b08d66-6f09-437c-9fb1-97361eb51ad8" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="e75ac982-8c18-4ab0-b30d-cd518aee6e3b" name="RenderGraph" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="1c576194-9244-4345-90d7-36c0158ff9f3" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DMobileScreenRender Member%3D(Name%3DRenderGraph OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DData)])" tag="ViewCode">
+                <elementDefinition Id="4b5282d1-c6f9-49d7-a763-5d39efbf2d48" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5547c87d-5917-4436-8966-64311241f381" name="method" profile="CSharpProfile">
+                <elementDefinition Id="dab7da32-4250-4303-b2a3-6f3b1b036b3d" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b4675456-fc96-4c5f-981b-f3965c0ee100">
+                    <propertyInstance Id="5506fad4-d366-485f-8488-60631d493107" name="ClrAttributes">
+                      <elementDefinition Id="d771c47f-b5ff-40e8-8426-1d7b02d4a6e1" />
+                    </propertyInstance>
+                    <elementDefinition Id="510306df-1fa6-4dbe-bbac-49c1bba990be" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eba5e04b-b9c6-42b9-a337-18886927fb9d">
+                    <propertyInstance Id="5831a371-2357-4890-88c5-c0990b011571" name="IsPartial" value="false">
+                      <elementDefinition Id="dfa6e04b-9b0a-4da6-999d-aed2f45773e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="9b424d9d-5538-425a-b6ac-83a9ea004d73" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8678ffe6-18c8-45c3-b306-bbdf124bbc91">
+                    <propertyInstance Id="34791871-5994-4ccc-b8ba-aaea1ff60a5f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6ae3960d-7e2d-4463-88c4-f08c790ddd52" />
+                    </propertyInstance>
+                    <elementDefinition Id="376ac6f4-278b-4f62-93b9-934a9fff963d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5c3077b2-3145-49ac-9cf4-f3c50958a68c">
+                    <propertyInstance Id="e3beeb42-2f96-4e07-9f52-7d9134894db3" name="Inheritance" value="none">
+                      <elementDefinition Id="1bb1eec1-f5bc-4d66-9f37-cfe24d7bd903" />
+                    </propertyInstance>
+                    <elementDefinition Id="f4afafcf-1ec8-448a-9427-55cc48598fbc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f764ef5e-7802-4426-86d7-7d0d45fb7672">
+                    <propertyInstance Id="6b2cadac-075e-4e23-acd6-5d7b7a9a3886" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5854fbe6-7563-455d-bb84-dbcedaa52be6" />
+                    </propertyInstance>
+                    <elementDefinition Id="e39dde5e-8934-475a-8ca2-75842c7e96b0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8963deb5-e51f-4ba9-ba9a-f46241715404">
+                    <propertyInstance Id="717b9185-8d4a-4a95-a6b6-837db1f99cee" name="params" value="false">
+                      <elementDefinition Id="f815adb6-639a-4d12-8b18-47f2cd438e1f" />
+                    </propertyInstance>
+                    <elementDefinition Id="023e824f-b09b-49eb-91e1-42e54d5319d9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c437176b-c390-4118-9d99-296dc075e42e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e6d5f6fc-368c-41c1-b5d6-394451ca0a13" direction="Return">
+                  <elementDefinition Id="260c85ad-75df-4da5-a72f-42f65b023055" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="32826437-4f5f-447e-ad2f-b2cee0022473" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a1f62cc6-4c98-4ff1-81cb-15b5c1222f14" name="graphData" direction="In">
+                  <referencesInternal>
+                    <reference Id="1aa35723-907a-4437-904c-2663d2e956c6" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DMobileScreenRender Member%3D(Name%3DRenderGraph OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DData)]) ParameterIdentifier%3DgraphData" tag="ViewCode">
+                      <elementDefinition Id="45baba3c-1ba3-4e9b-8885-f6eb33684280" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f547a19c-9543-4b3f-aefd-0f3ce7ae831b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cba894b6-9c24-4e04-a75c-24e5b5bf2e8a" LastKnownName="Data" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b2deaf57-6463-41ce-8754-8cdfa1cf68ed" name="MobileScreenRender" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="52bec896-3098-4a1e-a843-3d0c463e752a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DMobileScreenRender Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="c8334395-211c-48e9-a56e-a7caccde43d6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c9b85b20-4cb8-45b4-8138-315e7a952aca" name="method" profile="CSharpProfile">
+                <elementDefinition Id="f217c99e-f1a6-4a6b-8192-93cb452a50e0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e0e192da-3cd8-4312-8209-85a01e6dd0e1">
+                    <propertyInstance Id="8cde73f0-8a3a-4698-8e12-275f6f7b23d0" name="ClrAttributes">
+                      <elementDefinition Id="098585a4-a056-4431-a9dd-25637ae4ddba" />
+                    </propertyInstance>
+                    <elementDefinition Id="fb95e825-acf0-4dca-956c-7f4ea68c5988" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="157c2577-7076-4371-80eb-1a350f8ff9ce">
+                    <propertyInstance Id="6ed2e370-af5b-4160-be38-6a32d7883b4f" name="IsPartial" value="false">
+                      <elementDefinition Id="d8a54451-e777-4dd5-aa6e-fa7120f99a9e" />
+                    </propertyInstance>
+                    <elementDefinition Id="c004d8ee-e82c-47a4-ac19-fa43100e2844" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6e3b1b90-8c89-4868-98bd-ab8d3e66cc22">
+                    <propertyInstance Id="75256fbf-0762-4424-90fe-8aba10274621" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6a7322e2-e52e-4f9c-97e2-db4cb9d89216" />
+                    </propertyInstance>
+                    <elementDefinition Id="cebfd108-8083-4cd0-8de5-8e652bdce938" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a7e4bf57-bee6-4eea-b03b-bcf64d6a2950">
+                    <propertyInstance Id="d4496ae1-321f-4f2b-ab57-ebaba7e1bc9c" name="Inheritance" value="none">
+                      <elementDefinition Id="699ad477-0bed-469d-9f18-e02d93338408" />
+                    </propertyInstance>
+                    <elementDefinition Id="f8ca43f7-0adc-4f5c-92a0-d8eefe624303" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="17d71f8b-5fdd-4f37-80ac-38433c691045">
+                    <propertyInstance Id="1ad2aec3-08b8-4c24-9727-91b269ef8ae3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="572df2e5-0c76-4791-8794-4dcc21160648" />
+                    </propertyInstance>
+                    <elementDefinition Id="5240e801-4de8-484d-a4fc-3b5dd04d0b9e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2620bec9-51dd-46b5-9f0c-7517ab12af6b">
+                    <propertyInstance Id="24519e63-eec1-4948-878f-0f6bef78a144" name="params" value="false">
+                      <elementDefinition Id="2e8ba1dd-9c29-4b19-9f6b-2284ba700dd3" />
+                    </propertyInstance>
+                    <elementDefinition Id="7baf16be-4233-4bc2-9553-fea2992ed3a2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5ce7ddad-af39-4df3-b59c-c44c2432ae1e" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="21f3028d-43d1-44c0-b6e2-b2b3ff7302c4" name="DesktopScreenRender" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="87ae8dbc-73ca-4625-8dc2-9f7668b6a6e9" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DDesktopScreenRender" tag="ViewCode">
+            <elementDefinition Id="16bbddbc-1241-467c-9e94-1b482ae513df" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="84ec8c05-011c-4d37-a5dd-d70f2131fac6" name="class" profile="CSharpProfile">
+            <elementDefinition Id="6784b2a6-3ff3-4255-a070-37d25872cbbd" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2cff0511-bf10-4e65-a7c5-d5c9ece31394">
+                <propertyInstance Id="b18ec577-cd31-488a-8eb9-c74551f53254" name="ClrAttributes">
+                  <elementDefinition Id="6eb255eb-9572-49a3-bc7b-f170923daa11" />
+                </propertyInstance>
+                <elementDefinition Id="b1270209-6a1e-45b7-a6c6-50b94f3d98df" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d29a673d-d883-4dc2-b99b-4234a420a8d7">
+                <propertyInstance Id="e7883f2c-31e6-4d0b-932f-eab0c8276f65" name="IsPartial" value="false">
+                  <elementDefinition Id="f5424127-1a35-4936-89f6-ebe5586150cc" />
+                </propertyInstance>
+                <elementDefinition Id="46b1e6e7-20d0-402e-ab1c-4f0781f72143" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="88402786-954c-4b92-aa6f-91c5e9428037">
+                <propertyInstance Id="8d4ff4e3-9e6f-4ca7-90f7-27300e5333d0" name="IsStatic" value="False">
+                  <elementDefinition Id="019d63b7-34e2-43e4-9e25-c2d888657a2c" />
+                </propertyInstance>
+                <elementDefinition Id="35164b79-7123-4f2c-9720-ea807d807c5d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="317901f8-4fe1-4bc0-b038-9daaea70c16b">
+                <propertyInstance Id="79ce6393-6060-4801-a96b-23fc6c97ef4e" name="IsUnsafe" value="false">
+                  <elementDefinition Id="14acb7a8-5b0b-44fc-9fbe-8b96a5ee52bd" />
+                </propertyInstance>
+                <elementDefinition Id="42316629-fa0d-4676-ac8f-28e3230b7f26" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="78c65fa4-3279-4fcb-9a59-67346f6d5f54">
+                <propertyInstance Id="02a55393-bb6c-47d0-a772-ba8edbc69b2b" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="bcccb2ad-c98b-40cf-97de-1e824702e9a0" />
+                </propertyInstance>
+                <elementDefinition Id="a5b78531-cd54-48ab-9426-01ac710e8486" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="1058869e-33ed-4c83-be5c-4b11afcd4be2" />
+        <suppliersInternal>
+          <interfaceRealization Id="f052ec90-fd59-44d4-8846-aacd77f69162">
+            <interfaceMoniker Id="f3cfae55-717d-4d81-92ea-db824ceecb78" LastKnownName="IRenderStrategy" />
+            <elementDefinition Id="895d6336-c47b-4a5b-863a-e93b4fceac4f" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="8e9ba83a-b852-42b5-9793-c4ab345c236a" name="RenderGraph" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="1ecbf501-ac14-469f-b152-f663b4e32917" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DDesktopScreenRender Member%3D(Name%3DRenderGraph OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DData)])" tag="ViewCode">
+                <elementDefinition Id="60e343ec-cb27-4878-a120-dda48a323ca1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3355cd28-8538-4572-a415-b67d0307b3e0" name="method" profile="CSharpProfile">
+                <elementDefinition Id="dcad25d5-84e6-4138-b539-a059c5ea2dc4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f4cfb8c0-a211-4fc8-ae78-005aa94b1878">
+                    <propertyInstance Id="6fe94f3c-6a4a-4984-9343-8695cf21fa93" name="ClrAttributes">
+                      <elementDefinition Id="61285e8e-9c8c-4a38-b04f-686d47289bbc" />
+                    </propertyInstance>
+                    <elementDefinition Id="e6dc4d3d-5f3c-443b-b1b5-212f9f9182d4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="70e765b8-ef82-4e4c-ad57-12aac5751b13">
+                    <propertyInstance Id="f421b8ce-cc20-43b9-89e4-70dda412fc00" name="IsPartial" value="false">
+                      <elementDefinition Id="2849350f-b292-47de-8bfa-d1ce6be6c5ea" />
+                    </propertyInstance>
+                    <elementDefinition Id="3e781fb3-058b-403b-9834-ece7dc302a9a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1d7f8479-4112-472e-a0cc-e136f83e03ca">
+                    <propertyInstance Id="315cfaaa-0df6-4917-9497-6831751e7569" name="IsUnsafe" value="false">
+                      <elementDefinition Id="03e1171c-c857-4783-a62f-5db1b16df061" />
+                    </propertyInstance>
+                    <elementDefinition Id="514948df-4418-4507-af49-0187e60c192f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa8e8101-3cf1-4596-ad72-754571c9b4a5">
+                    <propertyInstance Id="e9249e2f-64d4-404d-80f5-a6f5fdb3bedb" name="Inheritance" value="none">
+                      <elementDefinition Id="2341aaf6-722b-45f5-a54a-07b7f998b3ef" />
+                    </propertyInstance>
+                    <elementDefinition Id="8c29a485-d5ed-4b03-a556-ea5a5155ed87" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="68396f96-e80c-4e24-8058-5a9d2b89f021">
+                    <propertyInstance Id="66112ba2-314d-4b69-8634-169ebc3934a4" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f51c45fc-0796-42f7-9f00-bb35df93c066" />
+                    </propertyInstance>
+                    <elementDefinition Id="28f44a45-8326-4454-b606-f0b417ace176" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b71ded7c-22df-456a-b48a-68948dcf9c88">
+                    <propertyInstance Id="22a14783-d1c7-40b9-8d7b-905c91508186" name="params" value="false">
+                      <elementDefinition Id="ae7f824d-77b8-4f0b-bce3-ef93a69d5dcd" />
+                    </propertyInstance>
+                    <elementDefinition Id="730f2623-01a0-4a60-8eb7-d4a0e84d4ee6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="384640b2-0f94-4598-926b-2414bc97c757" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="54bdb468-8fa5-4a64-83a1-7edeafdc29be" direction="Return">
+                  <elementDefinition Id="5c6d6f24-a4c8-49a1-b3ee-dab7bf980f18" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="32826437-4f5f-447e-ad2f-b2cee0022473" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="82c20c1d-6f5c-426c-945c-5cde9729a8de" name="graphData" direction="In">
+                  <referencesInternal>
+                    <reference Id="d2ed51e1-fe40-40dc-a51b-ddc4cec31a60" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DDesktopScreenRender Member%3D(Name%3DRenderGraph OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DData)]) ParameterIdentifier%3DgraphData" tag="ViewCode">
+                      <elementDefinition Id="69ff44f5-5898-4737-b336-9fce8f41873d" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="1bdff4f5-7c81-4ab8-b7fb-4db10c876e82" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cba894b6-9c24-4e04-a75c-24e5b5bf2e8a" LastKnownName="Data" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f87e5676-5594-4cbe-800b-4156b6b0ba51" name="DesktopScreenRender" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4ecb65ea-eb13-4479-819c-023819dc78a7" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DDesktopScreenRender Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="81000653-3b5a-4e0a-889f-796e5cab5353" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="2d495d1f-4940-4d40-bde7-31581e357317" name="method" profile="CSharpProfile">
+                <elementDefinition Id="ce8ba815-91fe-4b16-ad85-0abc85117c75" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7fb9a675-9310-4d5f-adf9-dabd43d2da80">
+                    <propertyInstance Id="00d51eb3-3cd7-4a03-978b-398a84f95577" name="ClrAttributes">
+                      <elementDefinition Id="e82a8d0c-16ca-4653-aeb3-9eec58b16917" />
+                    </propertyInstance>
+                    <elementDefinition Id="ef6ff084-43e1-457d-9a48-03b238f59b67" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0e37c866-f8da-455c-a3bb-ee0ca4ad31b6">
+                    <propertyInstance Id="8ae0f259-6b78-4af2-81a1-260ce06c720a" name="IsPartial" value="false">
+                      <elementDefinition Id="8158e755-e522-4269-828b-c8622ad8d375" />
+                    </propertyInstance>
+                    <elementDefinition Id="06124470-5ee3-4b20-9640-4fe483a68509" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="275afd01-4896-4144-b65c-f4cc4858d48d">
+                    <propertyInstance Id="748d5608-79d1-4c1f-9ea5-dc8ea28f7b4e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b6a51536-222f-4c12-a8aa-5adcaad7d5a1" />
+                    </propertyInstance>
+                    <elementDefinition Id="364314c2-3031-4dfe-b91c-17e87a03cb11" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e58f95b6-3ac6-4d52-b0f3-bc94d911f688">
+                    <propertyInstance Id="5d27fcda-b19a-4bf1-b94c-94c99858f5ce" name="Inheritance" value="none">
+                      <elementDefinition Id="4a27032f-8fb3-4526-93ea-a65e4afadd30" />
+                    </propertyInstance>
+                    <elementDefinition Id="64464bab-3305-4098-b0aa-161c043cb29f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="872d5fef-cb95-4af6-8a88-e2319ccf4253">
+                    <propertyInstance Id="e52fdee0-c115-4a2d-827a-02c53d17a940" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="78366f3d-3c0b-4524-ba45-1511333e5abf" />
+                    </propertyInstance>
+                    <elementDefinition Id="72e9d3aa-9d9a-4c3e-af1a-bc393de43e43" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b173b48c-7703-4a9e-9814-25fc2290e834">
+                    <propertyInstance Id="071c9eee-edf3-4940-a924-107cdafba810" name="params" value="false">
+                      <elementDefinition Id="02eb6d63-0caa-4aad-9cfc-1e145eb1c4c8" />
+                    </propertyInstance>
+                    <elementDefinition Id="791c024b-d1de-4fa3-b872-750981817cde" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="33f5f48f-a5c3-49da-a0fb-dabfe64a1a3d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="686bd639-a01a-4df5-a97a-0702b8f260fb" name="PrepareScreen" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="8592897f-86ed-4643-963a-2b1b4ccb3fea" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DPrepareScreen" tag="ViewCode">
+            <elementDefinition Id="9f42f3f4-3a57-43f2-b20e-80242b5c7f8b" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="3acfe596-86e8-4f18-b77d-2ac47afee036" name="class" profile="CSharpProfile">
+            <elementDefinition Id="9ee54e6e-d744-47f6-aec1-31a89e7cf549" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="cf7719aa-df1e-44a0-947b-8a26af8bb2d7">
+                <propertyInstance Id="2dbdb442-305d-48a6-b3f1-fe00b10cf8f8" name="ClrAttributes">
+                  <elementDefinition Id="54cb1a2d-ecfa-43f0-bfdb-e89d47f99cf2" />
+                </propertyInstance>
+                <elementDefinition Id="410905bc-c0f7-405e-8376-8eb611ea5f79" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="2381cf92-87c9-4173-85e7-5299dddac65f">
+                <propertyInstance Id="de5c886d-3b3f-45bf-912b-48d28261b612" name="IsPartial" value="false">
+                  <elementDefinition Id="d34e32d2-7801-4c52-9979-9230c4170645" />
+                </propertyInstance>
+                <elementDefinition Id="0fead1de-34de-43ce-9049-83c44be684a2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b7204496-b3a3-454a-99a8-6d1677d8aae5">
+                <propertyInstance Id="996aa413-a1e9-45fe-b3f9-a3086574779a" name="IsStatic" value="False">
+                  <elementDefinition Id="a231d26c-ae14-454c-9627-0ecf851cfaef" />
+                </propertyInstance>
+                <elementDefinition Id="e5aff4db-c12b-45af-b852-38ef7ac8bf49" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7b3ae698-6584-4f0c-b33e-287bbd8b3b65">
+                <propertyInstance Id="d7e3f83b-ed94-49d9-8d0b-9afb2f66ac23" name="IsUnsafe" value="false">
+                  <elementDefinition Id="fe06c352-aeec-4b9f-afae-e94846b1553a" />
+                </propertyInstance>
+                <elementDefinition Id="a073d744-551a-4f2c-8c9a-8936cd02205b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5f37fdbe-1757-4154-9a39-7711c6bc3603">
+                <propertyInstance Id="9d78fa12-609d-447e-a91c-dd487fb69788" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="ae374f2a-21bd-46b6-8575-a40d9e4b7532" />
+                </propertyInstance>
+                <elementDefinition Id="7048836f-1ef7-46e6-bd66-7d8107f6992c" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="7a91980e-cd31-485f-a476-3cda2c4876e0" />
+        <targetEnds>
+          <association Id="9dcd74c9-8fb7-4a18-9663-1a18f0e21845" isDerived="false" sourceEndRoleName="PrepareScreen" targetEndRoleName="RenderScreen" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="f3cfae55-717d-4d81-92ea-db824ceecb78" LastKnownName="IRenderStrategy" />
+            <description>Property RenderScreen references type IRenderStrategy.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fc8de0b8-1a5d-4f97-aef7-5fff5c5e7891" name="PrepareScreen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="be553060-36b0-4d79-8953-f478deff6c94" name="Lower" value="*">
+                      <elementDefinition Id="18b3e624-7244-426e-83d6-e38410495348" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="5c1457e2-05a7-4100-9665-6bdb93f1c7b3" name="Upper" value="*">
+                      <elementDefinition Id="b393e57c-db18-4828-af5b-bd1253d6e05a" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="376ae0f3-6c5f-4943-8986-40fd6de42bac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3802e23d-30ec-4639-9ffe-ca84ee13a75f" name="RenderScreen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="0eb4c893-aabb-4bf4-a449-7e5c55cc63a0" name="Lower" value="1">
+                      <elementDefinition Id="a1482a19-ee1e-48ef-8fee-eaf0d3a490e0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="8f63c170-ab59-4083-b006-0b29c75430a7" name="Upper" value="1">
+                      <elementDefinition Id="694c5eab-89a4-4a85-8ab9-2fa683d5af7d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="e1011814-3054-485a-96c6-91a87ba08afa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f2791e0d-4f5a-4f2e-bdc1-84f024f1d771" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="63690a97-33da-4dc8-9fdb-b990503795cf" name="RenderScreen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="80ff9381-62a4-4ebb-ac45-ed174180f26d" handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DPrepareScreen Member%3DRenderScreen" tag="ViewCode">
+                <elementDefinition Id="e8acc051-81b4-4cd3-8d97-a2a7a8f5e826" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="17a045b4-704e-4f84-acd2-895764e257d2" name="property" profile="CSharpProfile">
+                <elementDefinition Id="07468fde-d97b-4a93-bdc1-0bd7c4b20501" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4ee121a7-6e87-47fe-804e-f2795ccd597d">
+                    <propertyInstance Id="a4d741ff-94ce-4a32-881d-e4ce66a4c587" name="ClrAttributes">
+                      <elementDefinition Id="637cc5f0-89e0-4007-825c-92c60bf4b15f" />
+                    </propertyInstance>
+                    <elementDefinition Id="b36a69c2-1f02-4a3a-afdb-7ba1e41f7808" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3455cba2-fd22-46da-ba8a-47864b8e8463">
+                    <propertyInstance Id="26b10ff2-b6fd-4704-81a1-5b6d1b3968e3" name="Get" value="public">
+                      <elementDefinition Id="8f87d3d9-91a1-44d2-bf84-d1d37d69c6b9" />
+                    </propertyInstance>
+                    <elementDefinition Id="4634d2a3-b0eb-4f1d-88a3-cd5599ac2e7a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="899ad129-f801-46b3-b963-ddd72add5182">
+                    <propertyInstance Id="7c3c1f4f-b492-4ab0-890f-60129fc7d63c" name="HasBody" value="false">
+                      <elementDefinition Id="b18b6519-8cb1-4df1-a8fe-a6a8b0164293" />
+                    </propertyInstance>
+                    <elementDefinition Id="bdfc0689-badb-4383-ae6d-68d68e636ca2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e42022bb-a134-4197-b938-20b8ad37f2ff">
+                    <propertyInstance Id="16d151da-b419-4a2a-b4b6-7656e575fa75" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c6989c52-f0fb-4e6a-b2e8-e7e12b2784a0" />
+                    </propertyInstance>
+                    <elementDefinition Id="22e78e69-841b-4b17-9019-367045f68101" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b1ec9351-0c5d-44ba-a1aa-944608c1a08f">
+                    <propertyInstance Id="6ba7b62b-f422-4406-91c4-394275803a16" name="Inheritance" value="none">
+                      <elementDefinition Id="09640510-8c7d-4a31-9ff0-36fdfefda300" />
+                    </propertyInstance>
+                    <elementDefinition Id="6a371487-4526-476e-b682-bb23831d9838" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7970685e-07e6-4eb6-a14c-2ac00f318fd5">
+                    <propertyInstance Id="91769a08-b332-4d03-8043-0309052eadaa" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="daebd70f-e677-4e1c-a265-c53cbc8aa6ba" />
+                    </propertyInstance>
+                    <elementDefinition Id="997f6876-1b09-4f4c-9408-7f648fe73d42" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7c4d37cb-9c29-4af7-9ad1-593d86370170">
+                    <propertyInstance Id="12dc7af2-22db-44cd-8cac-bface2d6017d" name="Set" value="public">
+                      <elementDefinition Id="d683032b-c814-43ed-a5a3-a829bc781d45" />
+                    </propertyInstance>
+                    <elementDefinition Id="5f5ffb2f-e9da-476a-94fc-c7d5b32c1464" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9de2fee0-d477-4360-8d9c-6710a02fe7d1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b975262a-49b0-4d67-9187-6a9f05a15f52" LastKnownName="IRenderStrategy" />
+            </type_NamedElement>
+          </property>
+          <property Id="46bbebee-035e-4323-83b3-be67d4de5009" name="renderScreen" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="8c939590-7477-4d67-8331-d90a40a006bc" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DPrepareScreen Member%3DrenderScreen" tag="ViewCode">
+                <elementDefinition Id="03605b35-3087-46a9-ab85-bc0f59c842fe" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e16f49e9-d983-4c3d-ad39-bdf9de6ed322" name="field" profile="CSharpProfile">
+                <elementDefinition Id="81dad668-e0c0-4668-bc64-d82e0238e403" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5b345c36-be4f-4bef-bcaa-c807d7468751">
+                    <propertyInstance Id="bc0f3f41-c88f-468e-a245-371707d8b015" name="ClrAttributes">
+                      <elementDefinition Id="1b19410f-ebae-4cf9-b49d-56a528165f35" />
+                    </propertyInstance>
+                    <elementDefinition Id="e88c9363-3fb5-4cf6-83b4-e3aba5d04af5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a2a52b0f-1a36-451b-a894-dc20ed020362">
+                    <propertyInstance Id="2022130b-9449-4b82-8ca9-6a9f33fc77f9" name="IsConst" value="false">
+                      <elementDefinition Id="238610e4-db82-4f57-a059-5204c253c3d0" />
+                    </propertyInstance>
+                    <elementDefinition Id="85f44939-e82f-4db3-89bf-f628f50698db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f5b95253-f6f4-4e5d-aaf2-0dc4112943d0">
+                    <propertyInstance Id="592ece04-574e-4204-9207-f96e05034165" name="IsNullable" value="false">
+                      <elementDefinition Id="81056bb5-1f47-4137-bdb2-683c0630c718" />
+                    </propertyInstance>
+                    <elementDefinition Id="7998bbc4-921a-49bf-a60a-8e2230881efe" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="852995f7-5aa6-45ea-ad0d-94eb3f06bfdb">
+                    <propertyInstance Id="b601fccb-fd2b-4777-82ab-6c4ae6d22130" name="IsVolatile" value="false">
+                      <elementDefinition Id="f4da069f-048f-4296-a704-bf7ef9dc9ff7" />
+                    </propertyInstance>
+                    <elementDefinition Id="18e056a8-8ad4-4287-94eb-11ede7babf64" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c5f45e61-e4dd-4219-905b-d3837c42b9a2">
+                    <propertyInstance Id="36f75727-c6dc-4020-b123-0b4832723a80" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d58c0ecb-4ab9-4211-b004-00f945beca3f" />
+                    </propertyInstance>
+                    <elementDefinition Id="eb476b17-6e58-421c-824f-a980d802d9d6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="58c3bb1e-2576-4213-9c40-a815e4d9c8c9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b975262a-49b0-4d67-9187-6a9f05a15f52" LastKnownName="IRenderStrategy" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="47adf4d3-883f-41f4-a902-9b81fd7fc259" name="PrepareScreen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="cbb5cfef-0c12-46e0-8904-c24ee6196628" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DPrepareScreen Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DIRenderStrategy)])" tag="ViewCode">
+                <elementDefinition Id="6ae96af0-a3d8-4a96-bb6b-84aaac08b1b4" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5f29e3d9-84ac-4532-89c4-37e9f8b13945" name="method" profile="CSharpProfile">
+                <elementDefinition Id="f9eede95-c02e-4def-ac64-1bef6dda16d3" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6f44865c-2164-4e77-bfc4-1bf59cbc732d">
+                    <propertyInstance Id="c9d51e1f-868a-4afe-813d-19ee8c212d40" name="ClrAttributes">
+                      <elementDefinition Id="a4a5023e-d5aa-4ec4-ac92-e58c63a6cb6a" />
+                    </propertyInstance>
+                    <elementDefinition Id="02838fbf-b55e-460c-bb70-b115a0050e1c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="75075e84-0dc6-4935-a4a4-b70aafe6718e">
+                    <propertyInstance Id="e7db3193-dc71-4088-869a-864ec329f905" name="IsPartial" value="false">
+                      <elementDefinition Id="c18cd417-be68-46e4-9b71-e08f330f3196" />
+                    </propertyInstance>
+                    <elementDefinition Id="c71ad4e5-a606-4bc3-a056-ea57881e1865" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f5c50915-28da-4ac6-9458-0a00b200deb4">
+                    <propertyInstance Id="0d66d992-a26b-4cbb-825b-9bc49c325fa7" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6c2323db-c0ff-47f3-8490-bb761695abb8" />
+                    </propertyInstance>
+                    <elementDefinition Id="b50f5065-d83b-4e71-84d8-032ff4681146" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="97385e33-fcc3-4b7f-b8f8-03ee8dd3d719">
+                    <propertyInstance Id="67bb6de9-72dd-40e1-ad21-79774745161d" name="Inheritance" value="none">
+                      <elementDefinition Id="3ad981c6-456d-4e01-88d3-1ccb7aff360d" />
+                    </propertyInstance>
+                    <elementDefinition Id="64d75fa6-23db-4411-a91f-0d0c8078f480" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="02291779-9d20-466b-9809-0c5a45d087b8">
+                    <propertyInstance Id="8ed2c1f0-977c-4bfe-ab1e-f074b97665d9" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f54f365f-3564-43fc-a85c-d13b645df25d" />
+                    </propertyInstance>
+                    <elementDefinition Id="c9f52afe-a3df-4852-b077-9fc7216fe064" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0f3b482b-3268-4569-a16b-cdd533f82799">
+                    <propertyInstance Id="aefb3be4-07b3-481c-8cf2-7efd1016efe9" name="params" value="false">
+                      <elementDefinition Id="ce0a4faf-f943-416d-aa02-b37b01a98bf2" />
+                    </propertyInstance>
+                    <elementDefinition Id="6b9e8448-24e3-45b5-8fec-0b144c2474fc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="3d71839d-d15e-4be3-a36a-fa8e47c7a500" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="56aa841f-e53d-47aa-9299-998a3c1cb56f" name="renderStrategy" direction="In">
+                  <referencesInternal>
+                    <reference Id="0ef095f2-cec8-4b2a-b727-640483a18eab" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DPrepareScreen Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProjects%2FTelerik_HW_2013-2014%2FHigh Quality Code%2F13. DesignPatterns%2F01. StrategyPattern%2FStrategyPatternExample%2FStrategyPatternExample%2Fbin%2FDebug%2FStrategyPatternExample.exe&quot; Namespace%3DStrategyPatternExample Type%3DIRenderStrategy)]) ParameterIdentifier%3DrenderStrategy" tag="ViewCode">
+                      <elementDefinition Id="10ee8705-4fe8-4693-b43f-4849e9feee0a" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="7eb7f644-8583-4a2a-8355-55e190b398f9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b975262a-49b0-4d67-9187-6a9f05a15f52" LastKnownName="IRenderStrategy" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="b975262a-49b0-4d67-9187-6a9f05a15f52" name="IRenderStrategy" isAbstract="false" isLeaf="false" cachedFullName="StrategyPatternModeling::StrategyPatternExample::IRenderStrategy">
+        <elementDefinition Id="95e92205-0ad0-44af-a2fc-42ef389ab34d" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="8aaf4e49-0cb5-45c6-bccf-14099a5b3314" name="StrategyPatternModeling">
+    <elementDefinition Id="5420b253-8989-4cd5-b428-7905f9e6f762" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1a795dfc-dddc-4fe2-8a1c-1a48b7c16c52">
+        <profileInstance Id="b8e342ca-fdd1-4edf-bdc1-3f7014b0348d" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="233231f0-c41c-4e62-a1a5-cedf17dabcba">
+        <profileInstance Id="4aeb5cb8-6ff0-42e7-a929-515a5b47001e" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e8c646c4-d072-4899-8e36-12e380287825">
+        <profileInstance Id="90fa99fa-b85a-4316-ba37-a4ee72065e8a" name="CSharpProfile">
+          <elementDefinition Id="bc2d1852-309a-457a-8fe3-c8ca95ec1631" />
+        </profileInstance>
+        <elementDefinition Id="1fc6965d-38e1-4a23-96c0-9c2137397bdd" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

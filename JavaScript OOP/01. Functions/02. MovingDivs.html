@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Moving Divs</title>
+	<script src="02. moving-divs.js"></script>
+</head>
+<body>
+	<div id="moving-divs-parent" style="width: 500px; height: 400px;">
+		
+	</div>
+	<button id="add-ellipse">Add ellipse</button>
+	<button id="add-rectangle">Add rectangle</button>
+	<script>
+		movingDivs.setSelector('#moving-divs-parent');
+
+		document.getElementById('add-ellipse').addEventListener('click', function() {
+			movingDivs.add('ellipse');
+		});
+
+		document.getElementById('add-rectangle').addEventListener('click', function() {
+			movingDivs.add('rect');
+		});
+	</script>
+</body>
+</html>

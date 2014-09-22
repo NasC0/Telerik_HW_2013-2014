@@ -1,0 +1,254 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border-collapse: collapse;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  border: 1px solid #505050;
+  background: #f1f1f1;
+  font-family: Tahoma, sans-serif;
+}
+body aside {
+  display: inline-block;
+  float: left;
+}
+body aside header a {
+  text-decoration: none;
+}
+body aside header a h6 {
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+}
+body aside header a:hover {
+  text-decoration: underline;
+}
+body .left-aside {
+  width: 10%;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+body .left-aside header {
+  margin-bottom: 10px;
+}
+body .left-aside nav section {
+  margin-bottom: 10px;
+}
+body .left-aside nav section header {
+  color: #931210;
+  font-weight: bold;
+  margin: 0;
+}
+body .left-aside nav section a {
+  text-decoration: none;
+  color: black;
+}
+body .left-aside nav section a:hover {
+  text-decoration: underline;
+}
+body .right-aside {
+  width: 11%;
+  margin-top: 5px;
+  float: right;
+}
+body .right-aside section {
+  border: 1px solid #919191;
+  background: #FFFFFF;
+  margin-bottom: 1px;
+}
+body .right-aside section header {
+  text-align: center;
+}
+body .right-aside section a {
+  color: #931210;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+body section.main-body {
+  background: #FFFFFF;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  float: left;
+  border: 1px solid #919191;
+  padding: 5px;
+  width: 77   %;
+}
+body section.main-body header h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+body section.main-body article header {
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+body section.main-body article a {
+  color: #931210;
+}
+body section.main-body article div {
+  margin-bottom: 10px;
+}
+body section.main-body article div p {
+  margin-bottom: 10px;
+}
+body section.main-body article div img {
+  float: left;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 150px;
+}
+body section.main-body article div div {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  max-width: 80%;
+}
+body section.main-body article div div p {
+  font-weight: bold;
+}
+body header.default-header {
+  background: #808080;
+  color: white;
+  padding: 2px 0 2px 0;
+}
+body .clearfix:before,
+body .clearfix:after {
+  content: "";
+  display: table;
+}
+body .clearfix:after {
+  clear: both;
+}
+body .clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+/*# sourceMappingURL=01 SimpleWebPageStyles.css.map */

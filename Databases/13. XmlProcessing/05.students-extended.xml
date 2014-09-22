@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="05.students-extended.xsl"?>
+<students xmlns="urn:students"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:schemaLocation="urn:students 06.students-extended.xsd">
+  <student>
+    <name>Pesho</name>
+    <sex>Male</sex>
+    <birthDate>1921-12-21</birthDate>
+    <phone>0231-123-3412</phone>
+    <email>Pesho@pesho.pesho</email>
+    <course>Peshovshtina</course>
+    <specialty>Pesho</specialty>
+    <facultyNumber>FPESHO</facultyNumber>
+    <enrollment>
+      <enrollmentDate>2010-01-01</enrollmentDate>
+      <enrollmentScore>35.2</enrollmentScore>
+    </enrollment>
+    <exams>
+      <exam>
+        <examName>PeshoExam</examName>
+        <examScore>70.5</examScore>
+        <tutor>
+          <tutorName>Pesho tutor</tutorName>
+          <endorsement>1000</endorsement>
+        </tutor>
+      </exam>
+      <exam>
+        <examName>PeshoExam</examName>
+        <examScore>70.5</examScore>
+        <tutor>
+          <tutorName>Pesho tutor</tutorName>
+          <endorsement>1000</endorsement>
+        </tutor>
+      </exam>
+      <exam>
+        <examName>PeshoExam</examName>
+        <examScore>70.5</examScore>
+        <tutor>
+          <tutorName>Pesho tutor</tutorName>
+          <endorsement>1000</endorsement>
+        </tutor>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Pesho</name>
+    <sex>Male</sex>
+    <birthDate>1921-12-21</birthDate>
+    <phone>0231-123-3412</phone>
+    <email>Pesho@pesho.pesho</email>
+    <course>Peshovshtina</course>
+    <specialty>Pesho</specialty>
+    <facultyNumber>FPESHO</facultyNumber>
+    <enrollment>
+      <enrollmentDate>2010-01-01</enrollmentDate>
+      <enrollmentScore>35.2</enrollmentScore>
+    </enrollment>
+    <exams>
+      <exam>
+        <examName>PeshoExam</examName>
+        <examScore>70.5</examScore>
+        <tutor>
+          <tutorName>Pesho tutor</tutorName>
+          <endorsement>1000</endorsement>
+        </tutor>
+      </exam>
+      <exam>
+        <examName>PeshoExam</examName>
+        <examScore>70.5</examScore>
+        <tutor>
+          <tutorName>Pesho tutor</tutorName>
+          <endorsement>1000</endorsement>
+        </tutor>
+      </exam>
+      <exam>
+        <examName>PeshoExam</examName>
+        <examScore>70.5</examScore>
+        <tutor>
+          <tutorName>Pesho tutor</tutorName>
+          <endorsement>1000</endorsement>
+        </tutor>
+      </exam>
+    </exams>
+  </student>
+</students>

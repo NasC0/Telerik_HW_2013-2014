@@ -1,0 +1,21 @@
+body .twitter-containre {
+  line-height: normal;
+}
+body .twitter-header {
+  background-image: url("twitter-icon.jpg");
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  background-position-x: 0;
+  background-position-y: 0;
+  padding-left: 80px;
+}
+body .outer-container {
+  display: inline-flex;
+}
+body .center-div {
+  margin: auto 5px;
+}
+body blockquote {
+  min-width: 80%;
+}
+/*# sourceMappingURL=app.css.map */

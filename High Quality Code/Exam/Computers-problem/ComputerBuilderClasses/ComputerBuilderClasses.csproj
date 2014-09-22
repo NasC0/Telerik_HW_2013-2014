@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03AB8170-CA09-430C-8199-154F251B2AD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComputerBuilderClasses</RootNamespace>
+    <AssemblyName>ComputerBuilderClasses</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\ICentralProcessingUnit.cs" />
+    <Compile Include="Contracts\IDiskDrive.cs" />
+    <Compile Include="Contracts\ILaptopBattery.cs" />
+    <Compile Include="Contracts\ILaptopSystem.cs" />
+    <Compile Include="Contracts\IManufacturer.cs" />
+    <Compile Include="Contracts\IMotherboard.cs" />
+    <Compile Include="Contracts\IPcSystem.cs" />
+    <Compile Include="Contracts\IRaid.cs" />
+    <Compile Include="Contracts\IRandomAccessMemmory.cs" />
+    <Compile Include="Contracts\IServerSystem.cs" />
+    <Compile Include="Contracts\ISystem.cs" />
+    <Compile Include="Contracts\IVideoCard.cs" />
+    <Compile Include="Manufacturers\DellFactory.cs" />
+    <Compile Include="Manufacturers\FactoryMaker.cs" />
+    <Compile Include="Manufacturers\HpFactory.cs" />
+    <Compile Include="Manufacturers\LenovoFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemComponents\BaseCpu.cs" />
+    <Compile Include="SystemComponents\ColorfulVideoCardDrawingOnConsole.cs" />
+    <Compile Include="SystemComponents\Cpu128Bit.cs" />
+    <Compile Include="SystemComponents\Cpu32Bit.cs" />
+    <Compile Include="SystemComponents\Cpu64Bit.cs" />
+    <Compile Include="SystemComponents\HardDiskDrive.cs" />
+    <Compile Include="SystemComponents\LaptopBattery.cs" />
+    <Compile Include="SystemComponents\MonochromeVideoCardDrawingOnConsole.cs" />
+    <Compile Include="SystemComponents\Motherboard.cs" />
+    <Compile Include="SystemComponents\Raid.cs" />
+    <Compile Include="SystemComponents\RandomAccessMemmory.cs" />
+    <Compile Include="SystemTypes\BaseSystem.cs" />
+    <Compile Include="SystemTypes\Laptop.cs" />
+    <Compile Include="SystemTypes\PersonalComputer.cs" />
+    <Compile Include="SystemTypes\Server.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

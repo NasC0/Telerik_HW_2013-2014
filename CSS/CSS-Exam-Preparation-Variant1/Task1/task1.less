@@ -1,0 +1,137 @@
+﻿.main-ul-gradient {
+    background: #d19afd; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QxOWFmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4Yjc2ZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #d19afd 0%, #8b76fc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d19afd), color-stop(100%,#8b76fc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d19afd 0%,#8b76fc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d19afd 0%,#8b76fc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d19afd 0%,#8b76fc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d19afd 0%,#8b76fc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d19afd', endColorstr='#8b76fc',GradientType=0 ); /* IE6-8 */
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*End Reset*/
+
+body {
+    #wrapper {
+        width: 960px;
+        font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+        font-size: 16px;
+
+        aside {
+
+            ul.sidebar {
+                margin-top: 10px;
+                margin-left: 20px;
+                .main-ul-gradient;
+                border-radius: 10px;
+                width: 185px;
+                padding: 5px 15px;
+
+                li {
+                    border: 1px solid rgba(0, 0, 0, 0.00);
+                    border-bottom: 1px solid #9D00FC;
+                    text-align: center;
+                    position: relative;
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    &:hover {
+                        border: 1px solid #9D00FC;
+                        border-radius: 5px;
+                    }
+
+                    & > ul {
+                        display: none;
+                        background: url(imgs/arrow.png) no-repeat #B6A9FD;
+                        background-position: 5px 15px;
+                        z-index: 100;
+                        position: absolute;
+                        left: 103%;
+                        top: -10%;
+                        width: 235px;
+                        border-radius: 10px;
+                        padding: 5px;
+                        padding-left: 20px;
+
+                        li {
+
+                            a {
+                                font-size: 1.0em;
+                            }
+                        }
+                    }
+
+                    &:hover > ul {
+                        display: block;
+                    }
+
+                    a {
+                        color: black;
+                        text-decoration: none;
+                        font-size: 1.4em;
+                        display: block;
+                        padding-top: 6px;
+                        padding-bottom: 6px;
+                    }
+                }
+            }
+        }
+    }
+}

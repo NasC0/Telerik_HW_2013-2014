@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM Module test</title>
+	<script src="01. dom-module.js"></script>
+</head>
+<body id="body">
+	<script>
+		var ulElement = document.createElement('ul');
+		var liTemplate = document.createElement('li');
+		var innerElementTemplate = document.createElement('p');
+		var divTemplate = document.createElement('div');
+
+		liTemplate.style.border = '1px solid black';
+
+		divTemplate.style.border = '1px solid black';
+		divTemplate.style.display = 'inline-block';
+		divTemplate.style.width = '20px';
+
+		for (var i = 0; i < 10; i++) {
+			var liElement = liTemplate.cloneNode(true);
+			var innerElement = innerElementTemplate.cloneNode(true);
+			innerElement.innerHTML = i + ' child';
+			liElement.appendChild(innerElement);
+			ulElement.appendChild(liElement);
+		}
+
+		domModule.appendChild(ulElement, '#body');
+		domModule.removeChild('ul', 'li:first-child');
+		domModule.addHandler('ul', 'click', function() {
+			alert('hi');
+		});
+
+		for (var i = 0; i < 100; i++) {
+			domModule.appendToBuffer('#body', divTemplate.cloneNode(true));
+		}
+
+		for (var i = 0; i < 100; i++ ) {
+			domModule.appendToBuffer('ul', liTemplate.cloneNode(true));
+		}
+	</script>
+</body>
+</html>

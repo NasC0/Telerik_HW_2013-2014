@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-4. CoordsClassesAndStructs", "CoordsClassesAndStructs\01-4. CoordsClassesAndStructs.csproj", "{CEFBA50B-59DD-4795-AD3A-79DD0152BE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoordsTests", "Tests\CoordsTests.csproj", "{00E8D499-FBAF-46CD-86AE-D61F9ED7D846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-10. GenericClasses", "GenericClasses\05-10. GenericClasses.csproj", "{7AAF1D01-F0A3-4719-9588-54549F878622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericListTests", "GenericListTests\GenericListTests.csproj", "{ECAFA209-384C-4A13-90BA-91468CA08844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. VersionAttribute", "VersionAttribute\11. VersionAttribute.csproj", "{D24863C7-A660-4228-83FE-37C8250C124C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMatrixTest", "GenericMatrixTest\GenericMatrixTest.csproj", "{342C7D61-65D3-4FF9-9D5C-FCE65A333033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7E9B2557-3D2A-42A4-9D18-3FB7A023F657}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFBA50B-59DD-4795-AD3A-79DD0152BE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFBA50B-59DD-4795-AD3A-79DD0152BE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFBA50B-59DD-4795-AD3A-79DD0152BE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFBA50B-59DD-4795-AD3A-79DD0152BE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E8D499-FBAF-46CD-86AE-D61F9ED7D846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E8D499-FBAF-46CD-86AE-D61F9ED7D846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E8D499-FBAF-46CD-86AE-D61F9ED7D846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E8D499-FBAF-46CD-86AE-D61F9ED7D846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAF1D01-F0A3-4719-9588-54549F878622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAF1D01-F0A3-4719-9588-54549F878622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAF1D01-F0A3-4719-9588-54549F878622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAF1D01-F0A3-4719-9588-54549F878622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAFA209-384C-4A13-90BA-91468CA08844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAFA209-384C-4A13-90BA-91468CA08844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAFA209-384C-4A13-90BA-91468CA08844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAFA209-384C-4A13-90BA-91468CA08844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24863C7-A660-4228-83FE-37C8250C124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24863C7-A660-4228-83FE-37C8250C124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24863C7-A660-4228-83FE-37C8250C124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24863C7-A660-4228-83FE-37C8250C124C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342C7D61-65D3-4FF9-9D5C-FCE65A333033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342C7D61-65D3-4FF9-9D5C-FCE65A333033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342C7D61-65D3-4FF9-9D5C-FCE65A333033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342C7D61-65D3-4FF9-9D5C-FCE65A333033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9B2557-3D2A-42A4-9D18-3FB7A023F657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9B2557-3D2A-42A4-9D18-3FB7A023F657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9B2557-3D2A-42A4-9D18-3FB7A023F657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9B2557-3D2A-42A4-9D18-3FB7A023F657}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

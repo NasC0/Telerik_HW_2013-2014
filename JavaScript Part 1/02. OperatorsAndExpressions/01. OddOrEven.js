@@ -1,0 +1,10 @@
+//////////////////////////////////////////////////////////////////////////////
+// Task 1. Write an expression that checks if given integer is odd or even. //
+//////////////////////////////////////////////////////////////////////////////
+
+var checkNumber = 5;
+if (checkNumber % 2 === 0) {
+    console.log(checkNumber + " is even.");
+} else {
+    console.log(checkNumber + " is not even.");
+}

@@ -1,0 +1,7 @@
+THe main features of the Relational Database Management Systems include:
+- Storing data in tables
+- Persists data in the form of rows and tables
+- Tables are formed using SQL
+- Uses SQL to retrieve and manipulate data in the tables
+- Provides indices and primary keys for data identification and faster search
+- Provides foreign keys, which are entries in the table which indicate a relation to a row in another table

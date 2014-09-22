@@ -1,0 +1,16 @@
+What is the expected running time of the following C# code? Explain why.
+
+long CalcCount(int[,] matrix)
+{
+    long count = 0;
+    for (int row=0; row<matrix.GetLength(0); row++)
+        if (matrix[row, 0] % 2 == 0)
+            for (int col=0; col<matrix.GetLength(1); col++)
+                if (matrix[row,col] > 0)
+                    count++;
+    return count;
+}
+
+Assume the input matrix has size of n * m.
+
+Explanation: Worst-case scenario: O(n * m), since in the worst case none of the entries checked are equal to zero, hence we loop through all m elements n number of times.

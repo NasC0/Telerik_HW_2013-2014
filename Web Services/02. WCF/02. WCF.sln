@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. DayOfWeekServices", "01. DayOfWeekServices\01. DayOfWeekServices.csproj", "{0DC1C4F4-4492-4402-9F56-20DF5F8E0355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. TestDayOfWeek", "02. TestDayOfWeek\02. TestDayOfWeek.csproj", "{4F079791-99C9-4C5A-AAC4-6806D945F9CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DC1C4F4-4492-4402-9F56-20DF5F8E0355} = {0DC1C4F4-4492-4402-9F56-20DF5F8E0355}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. CheckStringsService", "03. CheckStringsService\03. CheckStringsService.csproj", "{EC7B0875-7CA8-42D9-9ADB-0412C7A12669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. CheckStringsIIISHost", "04. CheckStringsIIISHost\04. CheckStringsIIISHost.csproj", "{9A6054C3-B14B-4932-A872-A3FB4C9E4F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. CheckStringsConsoleClient", "05. CheckStringsConsoleClient\05. CheckStringsConsoleClient.csproj", "{E45277EE-FE4A-47BE-921C-CD3BBF960A47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC1C4F4-4492-4402-9F56-20DF5F8E0355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC1C4F4-4492-4402-9F56-20DF5F8E0355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC1C4F4-4492-4402-9F56-20DF5F8E0355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC1C4F4-4492-4402-9F56-20DF5F8E0355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F079791-99C9-4C5A-AAC4-6806D945F9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F079791-99C9-4C5A-AAC4-6806D945F9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F079791-99C9-4C5A-AAC4-6806D945F9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F079791-99C9-4C5A-AAC4-6806D945F9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7B0875-7CA8-42D9-9ADB-0412C7A12669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7B0875-7CA8-42D9-9ADB-0412C7A12669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7B0875-7CA8-42D9-9ADB-0412C7A12669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7B0875-7CA8-42D9-9ADB-0412C7A12669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6054C3-B14B-4932-A872-A3FB4C9E4F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6054C3-B14B-4932-A872-A3FB4C9E4F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6054C3-B14B-4932-A872-A3FB4C9E4F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6054C3-B14B-4932-A872-A3FB4C9E4F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45277EE-FE4A-47BE-921C-CD3BBF960A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45277EE-FE4A-47BE-921C-CD3BBF960A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45277EE-FE4A-47BE-921C-CD3BBF960A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45277EE-FE4A-47BE-921C-CD3BBF960A47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

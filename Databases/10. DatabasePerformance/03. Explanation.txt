@@ -1,0 +1,2 @@
+Searching in the table with Full Text index for Text LIKE 'Text1%' takes about 25 seconds and retuned over 1,100,000 rows
+Searching with full text search CONTAINS(Text, '"text1*"') takes about 12 seconds

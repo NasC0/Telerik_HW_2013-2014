@@ -1,0 +1,7 @@
+A database schema is normalized when all it's fields and tables are organized to reduce redundancy.
+A normalized databse has several advantages:
+
+- Reduced data repetition - many tables store different kinds of information. When that information is required in another table, a relation is created between tables through the use of foreign keys.
+- Easier and faster data manipulation.
+- Makes the data model more informative to users.
+- Simplified operations over the data in the tables.

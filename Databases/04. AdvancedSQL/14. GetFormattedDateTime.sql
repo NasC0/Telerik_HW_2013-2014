@@ -1,0 +1,1 @@
+SELECT FORMAT(GETDATE(), 'dd.MM.yyyy HH:mm:ss:fff') AS [Current DateTime]

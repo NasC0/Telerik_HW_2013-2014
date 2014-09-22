@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div id="container">
+        </div>
+        <script src="bower_components\raphael\raphael-min.js"></script>
+        <script>
+        var paper = Raphael('container', 600, 600);
+
+        var telerikLogo = paper.path("m 74.323741,130.23142 -17.10483,-17.27 13.04209,-13.16057 13.04209,-13.16056 -7.9138,-7.960482 c -4.35259,-4.378267 -8.18427,-7.960486 -8.51485,-7.960486 -0.33057,0 -4.00569,3.437878 -8.16692,7.639728 l -7.56587,7.63973 -5.15748,-4.82422 -5.15748,-4.824225 12.28593,-12.315507 c 6.75727,-6.773528 12.73644,-12.315506 13.28704,-12.315506 0.55061,0 6.74486,5.731007 13.76501,12.735572 l 12.7639,12.735571 12.999399,-12.970541 12.9994,-12.970542 12.0006,11.969338 c 6.60033,6.583136 12.0006,12.447546 12.0006,13.032022 0,1.296491 -7.21449,8.468578 -8.51864,8.468578 -0.51388,0 -4.21135,-3.25515 -8.2166,-7.233667 l -7.28227,-7.233669 -8.23024,8.230239 -8.23023,8.230237 12.97642,13.00529 12.97642,13.00529 -17.47671,17.49814 c -9.61219,9.62398 -17.931529,17.44911 -18.487429,17.38919 -0.55589,-0.0599 -8.70789,-7.88044 -18.11555,-17.37895 z m 27.107619,-9.57833 7.84961,-8.06622 -8.1762,-8.1762 -8.176199,-8.1762 -8.23445,8.23446 -8.23446,8.23446 7.961,8.00796 c 4.37854,4.40438 8.23101,8.00797 8.56104,8.00797 0.33003,0 4.13237,-3.6298 8.449659,-8.06623 z")
+            .attr({id: 'telerikLogo',parent: 'layer',fill: '#5CE600','stroke-width': '0','stroke-opacity': '1'});
+
+        var telerikText = paper.text(300, 110, 'Telerik');
+
+        telerikText.attr({
+            'fill': '#282828',
+            'font-family': 'Calibri, consolas, arial',
+            'font-size': 100,
+            'font-weight': 'bold'
+        });
+
+        var trademarkSymbol = paper.text(450, 108, '®')
+            .attr({
+                'fill': '#282828',
+                'font-family': 'Calibri, Consolas, Arial',
+                'font-size': 30,
+                'font-weight': 'bold',
+            });
+
+        var developExperiences = paper.text(342, 160, 'Develop experiences')
+            .attr({
+                'fill': '#282828',
+                'font-family': 'Calibri, Consola, Arial',
+                'font-size': 40
+            });
+
+        var youTubeTextFirstPart = paper.text(100, 230, 'You')
+            .attr({
+                'fill': '#4B4B4B',
+                'font-family': 'Calibri, Consolas, Arial',
+                'font-size': 100
+            })
+            .node.style.letterSpacing = '-5px';
+
+        var redRectangle = paper.rect(170, 185, 205, 95)
+            .attr({
+                'fill': '#EC2828',
+                'stroke': 'none',
+                'r': 20
+            })
+
+        var youTubeTextSecondPart = paper.text(275, 230, 'Tube')
+            .attr({
+                'fill': '#FFFFFF',
+                'font-family': 'Calibri, Consolas, Arial',
+                'font-size': 100
+            })
+            .node.style.letterSpacing = '-5px';
+        </script>
+    </body>
+</html>

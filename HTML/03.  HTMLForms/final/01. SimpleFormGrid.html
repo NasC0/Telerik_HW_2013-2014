@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Form</title>
+        <style>
+            table
+            {
+                width: 40%;
+            }
+            tfoot
+            {
+                background-color: #0094ff;
+                text-align: center;
+            }
+            .label
+            {
+                text-align: right;
+                padding-right: 2px;
+                font-weight: bold;
+            }
+            .input
+            {
+                width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <form name="WebForm" method="post">
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tfoot>
+                    <tr>
+                        <td colspan="8">
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Clear this form" />
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td class="label" colspan="3">Last Name:</td>
+                        <td colspan="5">
+                            <input type="text" id="lName" class="input" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">First Name:</td>
+                        <td colspan="5">
+                            <input type="text" id="fName" class="input"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">Address:</td>
+                        <td colspan="5">
+                            <textarea id="address" class="input"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">City:</td>
+                        <td colspan="2">
+                            <input type="text" id="city" class="input" />
+                        </td>
+                        <td class="label" colspan="1">State:</td>
+                        <td colspan="1">
+                            <input type="text" id="state"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">ZIP/Postal Code:</td>
+                        <td colspan="5">
+                            <input type="text" id="postalCode" style="width: 20%;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">Country:</td>
+                        <td colspan="5">
+                            <select id="country" style="width: 70%;">
+                                <option value="1">Bulgaria</option>
+                                <option value="2">Greece</option>
+                                <option value="3">Romania</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">Phone (country code, area code, number):</td>
+                        <td colspan="5">
+                            (+
+                            <input type="tel" style="width: 15%"/>)
+                            <input type="tel" style="width: 15%" /> -
+                            <input type="tel" style="width: 50%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">E-mail:</td>
+                        <td colspan="5"><input type="email" class="input" /></td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">Birth date:</td>
+                        <td colspan="5">
+                            Month <input type="number" style="width: 10%" />
+                            &nbsp;
+                            Day <input type="number" style="width: 10%" />
+                            &nbsp;
+                            Year (4 digit) <input type="number" style="width: 25%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="label">Gender</td>
+                        <td colspan="5">
+                            <select>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">Starting date</td>
+                        <td colspan="5">
+                            <input type="radio" id="spring06" name="startDate" value="1" />
+                            <label for="spring06">Spring 2006</label>
+                            <input type="radio" id="summer06" name="startDate" value="2" />
+                            <label for="summer06">Summer 2006</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label" colspan="3">Comments/Questions</td>
+                        <td colspan="5"><textarea class="input" rows="5"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body .field-validation-error {
+  color: #f00;
+}
+body .field-validation-valid {
+  display: none;
+}
+body .input-validation-error {
+  border: 1px solid #f00;
+  background-color: #fee;
+}
+body .validation-summary-errors {
+  font-weight: bold;
+  color: #f00;
+}
+body .validation-summary-errors ul {
+  list-style-type: none;
+}
+body .validation-summary-valid {
+  display: none;
+}
+/*# sourceMappingURL=Styles.css.map */

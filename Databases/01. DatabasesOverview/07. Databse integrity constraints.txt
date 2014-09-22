@@ -1,0 +1,1 @@
+Integrity constraints in databases are sets of rules designed to keep the data consistent and within predefined paramaters. For example, if you need to store a specific number in a range (like hour of the day - must be between 0 and 23). They are mostly used when the database administrator doesn't expect the incoming data to be valid.

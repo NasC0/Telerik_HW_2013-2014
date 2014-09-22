@@ -1,0 +1,3 @@
+Hierarchical model - tree-like data structure, where information is stored in "nodes".
+Relational model - table-like data structure, where information is stored in tables with relations formed between them.
+Object model - information is represented in the form of objects, used in object-oriented programming. 

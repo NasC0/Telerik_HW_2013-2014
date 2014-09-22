@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Select Template</title>
+	<script src="bower_components\handlebars\handlebars.js"></script>
+	<script src="02. select-template.js"></script>
+</head>
+<body>
+	<div id="select-container"></div>
+	<script id="select-template" type="text/x-handlebars-template">
+	<select>
+	    {{#each options}}
+	       <option value="{{value}}">{{text}}</option>
+	    {{/each}}
+	</select>
+	</script>
+</body>
+</html>

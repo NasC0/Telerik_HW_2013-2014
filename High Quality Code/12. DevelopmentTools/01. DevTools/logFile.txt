@@ -1,0 +1,37 @@
+2014-06-29 12:16:47,516 INFO  ClearSolutionGUI.MainWindow - No cleanup needed. 
+2014-06-29 12:18:00,416 INFO  ClearSolutionGUI.MainWindow - No cleanup needed.
+2014-06-29 12:19:44,502 INFO  ClearSolutionGUI.MainWindow - No cleanup needed.
+2014-06-29 12:19:45,781 FATAL ClearSolutionGUI.MainWindow - Could not create zip file
+System.IO.IOException: The file 'C:\Users\Kickass\Desktop\Kickass.zip' already exists.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   at ClearSolutionGUI.MainWindow.clearSolution_Click(Object sender, RoutedEventArgs e) in c:\Projects\Projects\Side_Stuff\ClearSolution\ClearSolutionGUI\MainWindow.xaml.cs:line 78
+2014-06-29 12:22:41,679 INFO  ClearSolutionGUI.MainWindow - No cleanup needed.
+2014-06-29 12:23:07,389 INFO  ClearSolutionGUI.MainWindow - No cleanup needed.
+2014-06-29 12:24:38,265 INFO  ClearSolutionGUI.MainWindow - No cleanup needed.
+2014-06-29 12:24:39,107 ERROR ClearSolutionGUI.MainWindow - Unauthorized access to a directory.
+System.UnauthorizedAccessException: Access to the path 'C:\Users\Kickass\Application Data' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.DirectoryInfo.EnumerateFileSystemInfos(String searchPattern, SearchOption searchOption)
+   at System.IO.Compression.ZipFile.IsDirEmpty(DirectoryInfo possiblyEmptyDir)
+   at System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   at ClearSolutionGUI.MainWindow.clearSolution_Click(Object sender, RoutedEventArgs e) in c:\Projects\Projects\Side_Stuff\ClearSolution\ClearSolutionGUI\MainWindow.xaml.cs:line 78
+2014-06-29 12:25:41,147 INFO  ClearSolutionGUI.MainWindow - No cleanup needed.
+2014-06-29 12:25:41,912 ERROR ClearSolutionGUI.MainWindow - A file with the same name already exists.
+System.IO.IOException: The file 'C:\Users\Kickass\Desktop\Kickass.zip' already exists.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Compression.ZipFile.Open(String archiveFileName, ZipArchiveMode mode, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   at ClearSolutionGUI.MainWindow.clearSolution_Click(Object sender, RoutedEventArgs e) in c:\Projects\Projects\Side_Stuff\ClearSolution\ClearSolutionGUI\MainWindow.xaml.cs:line 78

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. ShapesLibrary", "01. ShapesLibrary\01. ShapesLibrary.csproj", "{D0753F52-70BC-4E35-AE72-3EE2E95260DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. ShapesTest", "01. ShapesTest\01. ShapesTest.csproj", "{93609EF2-2970-4550-843B-F0337A8DE9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BankModel", "BankModel\02. BankModel.csproj", "{CEC64A24-8A5F-4E23-B872-0A30B77A92D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BankModelTest", "02. BankModelTest\02. BankModelTest.csproj", "{DACE02AB-076D-4313-BF09-D9BEF221D39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. InvalidRangeException", "InvalidRangeException\03. InvalidRangeException.csproj", "{C52C6B7E-9E61-4685-B30D-A0A5E41A2CC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0753F52-70BC-4E35-AE72-3EE2E95260DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0753F52-70BC-4E35-AE72-3EE2E95260DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0753F52-70BC-4E35-AE72-3EE2E95260DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0753F52-70BC-4E35-AE72-3EE2E95260DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93609EF2-2970-4550-843B-F0337A8DE9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93609EF2-2970-4550-843B-F0337A8DE9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93609EF2-2970-4550-843B-F0337A8DE9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93609EF2-2970-4550-843B-F0337A8DE9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC64A24-8A5F-4E23-B872-0A30B77A92D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC64A24-8A5F-4E23-B872-0A30B77A92D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC64A24-8A5F-4E23-B872-0A30B77A92D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC64A24-8A5F-4E23-B872-0A30B77A92D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACE02AB-076D-4313-BF09-D9BEF221D39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACE02AB-076D-4313-BF09-D9BEF221D39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACE02AB-076D-4313-BF09-D9BEF221D39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACE02AB-076D-4313-BF09-D9BEF221D39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52C6B7E-9E61-4685-B30D-A0A5E41A2CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52C6B7E-9E61-4685-B30D-A0A5E41A2CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52C6B7E-9E61-4685-B30D-A0A5E41A2CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52C6B7E-9E61-4685-B30D-A0A5E41A2CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

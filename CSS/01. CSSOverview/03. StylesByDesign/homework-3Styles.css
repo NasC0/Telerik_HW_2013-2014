@@ -1,0 +1,47 @@
+﻿body {
+    background-color: #A9A9A9;
+}
+
+body footer {
+    text-align: center;
+}
+
+
+
+body header {
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body header nav ul li {
+    list-style: none;
+}
+
+body header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+body header nav ul li a:hover {
+    text-decoration:underline;
+}
+
+body header nav ul li .current {
+    background-color: #D3D3D3;
+}
+
+body article header {
+    text-align: left;
+    font-size: 20px;
+}
+
+body article a {
+    color: black;
+    text-decoration: none;
+}
+
+body article footer {
+    text-align:left;
+}

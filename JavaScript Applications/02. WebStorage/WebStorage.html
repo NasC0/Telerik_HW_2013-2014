@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    </head>
+    <body>
+        <div class="panel">
+            <div class="panel-heading">
+                <h2 class="text-center">
+                Welcome to the number guessing game!
+                </h2>
+                <p class="lead text-center">
+                I have a 4 digit number in my mind, see how much tries it takes you to guess it!
+                </p>
+            </div>
+            <div class="panel-body">
+            	<div class="container">
+            		<div class="row">
+            			<div class="form-group center-block">
+            				<label class="center-block text-center">
+            					Your number:
+        					</label>
+        					<input type="text" class="form-control text-center" id="value"/>
+            			</div>
+            			<div class="text-center">
+            				<button class="btn btn-primary" id="submit-guess">Guess</button>
+            				<button class="btn btn-primary" id="show-highscore">Show highscores</button>
+            			</div>
+            		</div>
+            	</div>
+
+                <div class="panel-info text-center" id="game-message">
+                	<p class="text-warning" id="game-warning"></p>
+                	<p class="text-success" id="bovine-count"></p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="highscores">
+
+        </div>
+        <script id="highscore-template" type="text/x-handlebars-template">
+        	{{#if highscore}}
+        		<table class="table">
+        			<thead>
+        				<tr>
+        					<th class="text-center">Nickname</th>
+        					<th class="text-center">Guesses</th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        			{{#each highscore}}
+        				<tr>
+        					<td class="text-center">
+        						{{nickname}}
+        					</td>
+        					<td class="text-center">
+        						{{guesses}}
+        					</td>
+        				</tr>
+        			{{/each}}
+        			</tbody>
+        		</table>
+    		{{else}}
+    			<p class="info">No highscores to show</p>
+    		{{/if}}
+        </script>
+        <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+    </body>
+</html>

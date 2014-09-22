@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Canvas Module</title>
+    </head>
+    <body>
+        <canvas id="the-canvas" width="400" height="400"></canvas>
+        <script src="01. canvas-module.js"></script>
+        <script>
+	        var extendedCanvas = new ExtendedCanvas('#the-canvas');
+	        extendedCanvas.rect(10, 10, 50, 50);
+	        extendedCanvas.circle(35, 35, 10);
+	        extendedCanvas.line(50, 50, 100, 100);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+Pros: 
+- Speeds up searching in a large table exponentially.
+- Adds another level of redundancy to the table (it is recommended that the data in the indexed column is mostly unique).
+
+Cons:
+- Slower data manipulation operation execution, since the indexed B-Tree needs to be rebalanced every time the data in it is changed.
+- Increase the server space required by the database.

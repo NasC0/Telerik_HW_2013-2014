@@ -1,0 +1,61 @@
+﻿@model Clean.Models.GuestResponse
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Styles.css" rel="stylesheet" />
+    <title>RsvpForm</title>
+</head>
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-body">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary()
+                <div class="form-group">
+                    <label for="Name">Your name:</label>
+                    @Html.TextBoxFor(x => x.Name, new
+                     {
+                         @class = "form-control"
+                     })
+                </div>
+                <div class="form-group">
+                    <label for="Email">Your Email:</label>
+                    @Html.TextBoxFor(x => x.Email, new
+                     {
+                         @class = "form-control"
+                     })
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Your Phone:</label>
+                    @Html.TextBoxFor(x => x.Phone, new
+                     {
+                         @class = "form-control"
+                     })
+                </div>
+                <div class="form-group">
+                    <label for="WillAttend">Will you be attending?</label>
+                    @Html.DropDownListFor(x => x.WillAttend, new[] {
+                        new SelectListItem() {Text = "Yes, i'll attend", Value = bool.TrueString},
+                        new SelectListItem() {Text = "No, i can't come", Value = bool.FalseString}
+                        }, "Choose an option", new
+                        {
+                            @class = "form-control"
+                        })
+                </div>
+                <div class="text-center">
+                    <input type="submit" value="Submit RSVP" class="btn btn-info" />
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

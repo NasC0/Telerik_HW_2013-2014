@@ -1,0 +1,17 @@
+What is the expected running time of the following C# code? Explain why. Assume the array's size is n.
+long Compute(int[] arr)
+{
+    long count = 0;
+    for (int i=0; i<arr.Length; i++)
+    {
+        int start = 0, end = arr.Length-1;
+        while (start < end)
+            if (arr[start] < arr[end])
+                { start++; count++; }
+            else 
+                end--;
+    }
+    return count;
+}
+
+Explanation: Worst Case scenario: O(n ^ 2) since for each element n, we have another loop from 0 to n - 1. Even if the end variable is decremented, the algorithm doesn't increase the start variable, which effectively means another O(n) loop over the elements.

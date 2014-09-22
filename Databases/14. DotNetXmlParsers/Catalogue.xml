@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>Chovekut koito se smee 2</name>
+    <artist>Qvkata DLG</artist>
+    <year>2014</year>
+    <producer>Qvkata DLG</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Chovekut koito se smee</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Crabtree</title>
+        <duration>2:00</duration>
+      </song>
+      <song>
+        <title>Mumu</title>
+        <duration>2:35</duration>
+      </song>
+      <song>
+        <title>Muzika pod bradichkata</title>
+        <duration>2:35</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Pesho</name>
+    <artist>Pesho</artist>
+    <year>2001</year>
+    <producer>Pesho</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Pesho e pich</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Pesho e lud</title>
+        <duration>2:00</duration>
+      </song>
+      <song>
+        <title>Pesho e choveka</title>
+        <duration>2:35</duration>
+      </song>
+      <song>
+        <title>Pesho ve</title>
+        <duration>2:35</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Chovekut koito se smee 2</name>
+    <artist>Qvkata DLG</artist>
+    <year>2014</year>
+    <producer>Qvkata DLG</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Chovekut koito se smee</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Crabtree</title>
+        <duration>2:00</duration>
+      </song>
+      <song>
+        <title>Mumu</title>
+        <duration>2:35</duration>
+      </song>
+      <song>
+        <title>Muzika pod bradichkata</title>
+        <duration>2:35</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Chovekut koito se smee 2</name>
+    <artist>Qvkata DLG</artist>
+    <year>2002</year>
+    <producer>Qvkata DLG</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Chovekut koito se smee</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Crabtree</title>
+        <duration>2:00</duration>
+      </song>
+      <song>
+        <title>Mumu</title>
+        <duration>2:35</duration>
+      </song>
+      <song>
+        <title>Muzika pod bradichkata</title>
+        <duration>2:35</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Chovekut koito se smee 2</name>
+    <artist>Qvkata DLG</artist>
+    <year>2014</year>
+    <producer>Qvkata DLG</producer>
+    <price>21.00</price>
+    <songs>
+      <song>
+        <title>Chovekut koito se smee</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Crabtree</title>
+        <duration>2:00</duration>
+      </song>
+      <song>
+        <title>Mumu</title>
+        <duration>2:35</duration>
+      </song>
+      <song>
+        <title>Muzika pod bradichkata</title>
+        <duration>2:35</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Pesho</name>
+    <artist>Pesho</artist>
+    <year>2014</year>
+    <producer>Pesho</producer>
+    <price>30.00</price>
+    <songs>
+      <song>
+        <title>Pesho e pich</title>
+        <duration>3:15</duration>
+      </song>
+      <song>
+        <title>Pesho e lud</title>
+        <duration>2:00</duration>
+      </song>
+      <song>
+        <title>Pesho e choveka</title>
+        <duration>2:35</duration>
+      </song>
+      <song>
+        <title>Pesho ve</title>
+        <duration>2:35</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

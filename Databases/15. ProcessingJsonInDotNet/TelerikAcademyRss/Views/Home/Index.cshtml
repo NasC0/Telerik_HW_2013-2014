@@ -1,0 +1,17 @@
+﻿@model IEnumerable<TelerikAcademyRss.Models.RssEntry>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="panel">
+    <div class="panel-body">
+        @foreach (var entries in Model)
+        {
+            <div class="well">
+                <span>[@entries.Category]</span>
+                <span><a href="@entries.Link">@entries.Title</a></span>
+            </div>
+        }
+    </div>
+</div>

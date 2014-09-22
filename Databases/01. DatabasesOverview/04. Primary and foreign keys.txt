@@ -1,0 +1,3 @@
+Primary key: a primary key is the unique identificator of a database table row. It is used for easier information retrieval. A primary key can consist of several table columns (compound primary key).
+
+Foreign key: a foreign key in a table row represents a relation to another table. The foreign key in the originating table is usually the primary key in the related table.

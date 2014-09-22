@@ -1,0 +1,5 @@
+Key-value data model: data is represented as a colection of key-value pairs. It is one of the simplest non-relational data models. The key is a string which represents the identificator of the data, while the value is usually some kind of a primitive language structure (string, int, etc). The dictionary collection in .NET can be thought of as a key-value data model.
+
+Document data model: each record and it's associated data is a "document". In a document database, everything related to a database object is encapsulated together. This is generally the complete opposite of a normalized relational database. The document data model sits on top of the key-value data model.
+
+Graph data model: a datbase that uses graph structures with nodes, edges and properties to represent the stored data. It provides index-free adjacency - every element contains a direct pointer to it's adjacent elements and no index lookups are necessary. They are often faster than relational databases for associative data sets. 

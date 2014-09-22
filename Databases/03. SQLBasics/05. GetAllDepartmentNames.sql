@@ -1,0 +1,1 @@
+SELECT Departments.Name FROM TelerikAcademy.dbo.Departments

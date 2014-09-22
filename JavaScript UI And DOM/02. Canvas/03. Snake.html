@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake game</title>
+        <script src="03.%20snake.js"></script>
+        <style>
+            canvas {
+            	border: 2px solid black;
+            }
+
+            div #game-sounds {
+            	display: none;
+            }
+
+            div#game-sprites{
+            	display: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <canvas id="the-canvas" width="600" height="500">
+        This element is not supported in your browser
+        </canvas>
+
+        <div id="game-sounds">
+            <audio src="resources/sounds/172138__paulmorek__nom-d-03.wav"></audio>
+            <audio src="resources/sounds/172139__paulmorek__nom-d-02.wav"></audio>
+            <audio src="resources/sounds/172137__paulmorek__nom-c-01.wav"></audio>
+            <audio src="resources/sounds/172135__paulmorek__nom-c-06.wav"></audio>
+        </div>
+
+        <div id="game-sprites">
+        	<img src='resources/sprites/snake-head-top-hat-left.png' id='snake-head-left' />
+        	<img src='resources/sprites/snake-head-top-hat-right.png' id='snake-head-right' />
+        	<img src='resources/sprites/snake-head-top-hat-up.png' id='snake-head-up' />
+        	<img src='resources/sprites/snake-head-top-hat-down.png' id='snake-head-down' />
+
+        	<img src='resources/sprites/snake-head-top-hat-open-left.png' id='snake-head-open-left' />
+        	<img src='resources/sprites/snake-head-top-hat-open-right.png' id='snake-head-open-right' />
+        	<img src='resources/sprites/snake-head-top-hat-open-up.png' id='snake-head-open-up' />
+        	<img src='resources/sprites/snake-head-top-hat-open-down.png' id='snake-head-open-down' />
+        </div>
+    </body>
+</html>

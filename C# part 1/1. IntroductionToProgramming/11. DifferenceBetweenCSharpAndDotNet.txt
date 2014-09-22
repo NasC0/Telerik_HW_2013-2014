@@ -1,0 +1,4 @@
+C# is a programming language, part of the .NET framework. It uses .NET assemblies to execute code.
+.NET is a framework, which includes many assemblies used in different languages like F#, Visual Basic .NET and others. It is also a runtime for executing applications.
+Resources:
+www.stackoverflow.com

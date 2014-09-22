@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellularClasses", "CellularClasses\CellularClasses.csproj", "{35BE8057-E47E-4858-8654-6E5E338BA893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. GSMTest", "07. GSMTest\07. GSMTest.csproj", "{07C32F5B-760F-45FF-98FA-306A5B9A8B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. GSMCallHistoryTest", "12. GSMCallHistoryTest\12. GSMCallHistoryTest.csproj", "{63A8B40F-4840-44AC-886C-B063E4406EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35BE8057-E47E-4858-8654-6E5E338BA893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BE8057-E47E-4858-8654-6E5E338BA893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BE8057-E47E-4858-8654-6E5E338BA893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BE8057-E47E-4858-8654-6E5E338BA893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C32F5B-760F-45FF-98FA-306A5B9A8B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C32F5B-760F-45FF-98FA-306A5B9A8B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C32F5B-760F-45FF-98FA-306A5B9A8B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C32F5B-760F-45FF-98FA-306A5B9A8B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A8B40F-4840-44AC-886C-B063E4406EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A8B40F-4840-44AC-886C-B063E4406EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A8B40F-4840-44AC-886C-B063E4406EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A8B40F-4840-44AC-886C-B063E4406EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

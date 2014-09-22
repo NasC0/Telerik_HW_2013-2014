@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Template</title>
+        <script src="bower_components\handlebars\handlebars.js"></script>
+        <script src="01. table-template.js"></script>
+        <style>
+        #table-container table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        #table-container .table-header th{
+        padding: 5px;
+        background-color: #A6A6A6;
+        border: 1px solid black;
+        }
+        #table-container .table-body td {
+        padding: 5px;
+        border: 1px solid black;
+        }
+        #table-container .table-body tr:nth-child(even) {
+        background-color: #D9D9D9;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="table-container">
+        </div>
+        <script id="table-template" type="text/x-handlebars-template">
+        <table>
+            <thead class="table-header">
+                <tr>
+                    <th>№</th>
+                    <th>Title</th>
+                    <th>Date #1</th>
+                    <th>Date #2</th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+                {{#each tableContent}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{title}}</td>
+                    <td>{{firstDate}}</td>
+                    <td>{{secondDate}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        </script>
+    </body>
+</html>

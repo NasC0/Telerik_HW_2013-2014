@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyDb.Data", "CompanyDb.Data\CompanyDb.Data.csproj", "{EFF8B0E4-7A40-4DB4-ACFA-0B568192F983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyDb.ImportRandomData", "CompanyDb.ImportRandomData\CompanyDb.ImportRandomData.csproj", "{93888F70-8947-44C3-85E0-A83D0FA1A148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDb.Model", "CarsDb.Model\CarsDb.Model.csproj", "{D86E53BF-CD06-4AC6-AC15-8827C429B76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDb.Data", "CarsDb.Data\CarsDb.Data.csproj", "{42E605FA-D2D0-4DC5-A6DA-A553E3D56BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDb.ImportFromJson", "CarsDb.ImportFromJson\CarsDb.ImportFromJson.csproj", "{5178D875-E8BB-4E37-BFB9-5A5C156CCDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDb.XmlQueries", "CarsDb.XmlQueries\CarsDb.XmlQueries.csproj", "{FE904170-E3BC-47C2-982A-D53CF4F49EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF8B0E4-7A40-4DB4-ACFA-0B568192F983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFF8B0E4-7A40-4DB4-ACFA-0B568192F983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFF8B0E4-7A40-4DB4-ACFA-0B568192F983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFF8B0E4-7A40-4DB4-ACFA-0B568192F983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93888F70-8947-44C3-85E0-A83D0FA1A148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93888F70-8947-44C3-85E0-A83D0FA1A148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93888F70-8947-44C3-85E0-A83D0FA1A148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93888F70-8947-44C3-85E0-A83D0FA1A148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86E53BF-CD06-4AC6-AC15-8827C429B76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86E53BF-CD06-4AC6-AC15-8827C429B76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86E53BF-CD06-4AC6-AC15-8827C429B76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86E53BF-CD06-4AC6-AC15-8827C429B76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E605FA-D2D0-4DC5-A6DA-A553E3D56BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E605FA-D2D0-4DC5-A6DA-A553E3D56BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E605FA-D2D0-4DC5-A6DA-A553E3D56BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E605FA-D2D0-4DC5-A6DA-A553E3D56BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5178D875-E8BB-4E37-BFB9-5A5C156CCDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5178D875-E8BB-4E37-BFB9-5A5C156CCDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5178D875-E8BB-4E37-BFB9-5A5C156CCDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5178D875-E8BB-4E37-BFB9-5A5C156CCDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE904170-E3BC-47C2-982A-D53CF4F49EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE904170-E3BC-47C2-982A-D53CF4F49EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE904170-E3BC-47C2-982A-D53CF4F49EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE904170-E3BC-47C2-982A-D53CF4F49EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

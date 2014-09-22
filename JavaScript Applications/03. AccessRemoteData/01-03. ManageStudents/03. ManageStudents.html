@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Manage Students</title>
+        <link rel="stylesheet" href="css/toastr.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="form container">
+        	<div class="form-group">
+				<label class="text-center center-block">Student name:</label>
+				<input type="text" class="form-control" id="student-name" />
+        	</div>
+
+        	<div class="form-group">
+				<label class="text-center center-block">Grade</label>
+				<input type="text" class="form-control" id="student-grade" />
+        	</div>
+
+            <div class="btn-group-lg text-center">
+                <button type="button" id="add-student" class="btn btn-primary">Add student</button>
+            </div>
+        </div>
+        <div class="container">
+        	<table class="table">
+        		<thead>
+        			<tr>
+        				<th class="text-center">Name</th>
+        				<th class="text-center">Grade</th>
+        				<th class="text-center">Delete</th>
+        			</tr>
+        		</thead>
+        		<tbody id="student-table">
+        		</tbody>
+        	</table>
+        </div>
+        <script src="scripts/libs/require.js" data-main="scripts/app">
+        </script>
+    </body>
+</html>

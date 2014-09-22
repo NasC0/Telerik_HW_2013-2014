@@ -1,0 +1,178 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border-collapse: collapse;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: #88A4B1;
+  display: block;
+  padding: 10px 15px 10px 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.active-text {
+  color: white;
+}
+body {
+  background: #1E3741;
+  font-family: Tahoma, sans-serif;
+}
+body header nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+body header nav ul {
+  list-style: none;
+}
+body header nav ul li {
+  display: inline-block;
+  background: #4B5F67;
+}
+body header nav ul li.active-nav-item {
+  background: none;
+}
+body aside {
+  width: 325px;
+}
+body aside ul li {
+  border-bottom: 1px solid #344A53;
+}
+body aside ul li:last-of-type {
+  border: none;
+}
+body aside ul li.active-news-item {
+  background: #00968C;
+  position: relative;
+}
+body aside ul li.active-news-item .absolute-positioning {
+  position: absolute;
+  left: 99%;
+  top: 5%;
+}
+/*# sourceMappingURL=06. BTVLookAlikeStyles.css.map */

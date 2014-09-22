@@ -1,0 +1,10 @@
+{
+  "name": "_01._MaxSequence",
+  "version": "0.0.0",
+  "description": "01. MaxSequence",
+  "main": "app.js",
+  "author": {
+    "name": "NasC0",
+    "email": ""
+  }
+}

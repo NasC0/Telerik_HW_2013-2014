@@ -1,0 +1,15 @@
+Connection string for "Company" database: .
+Connection string for "Cars" database: .
+Relationships for "Company" database: (first-table : second-table - type of relationship)
+Employees - Employees - one-to-many (on ManagerID = EmployeeID)
+Employees - Departments - one-to-many (on e.DepatmentID = d.DepartmentID)
+Employees - EmployeesProjects - Projects - many-to-many (on e.EmployeeID = ep.EmployeeID)
+Projects - EmployeesProjects - Employees - many-to-many (on p.ProjectID = ep.ProjectID)
+Reports - Employees - one-to-many (on r.EmployeeID = e.EmployeeID)
+
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+Car - Manufacturer - one-to-many
+Car - Dealer - one-to-many
+Dealr - City - many-to-many
+Query files: (file location in solution)
+In the QueryResults folder

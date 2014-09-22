@@ -1,0 +1,41 @@
+Design pattern: Simple Factory
+	* In the ManufacturerFactory classes
+
+Design pattern: Strategy
+	* In the FactoryMaker class
+
+Design pattern: Template Method
+	* In the BaseCPU class and it's children
+
+Design pattern: Abstract factory
+	* In ComputerBulderEntryPoint.cs and the Manufacturer factory classes
+
+Design pattern: Composite
+	* 
+
+Design pattern: Mediator
+	* 
+
+Found bottlenecks:
+	* Fixed bottleneck in the Random number generation in BaseCPU class
+	* 
+
+Found bugs:
+	* Fixed Null referrence exception in the CPU class (video card = null)
+	* I couldn't find any other bugs, but the application works correctly, so i assume i fixed them while refactoring.
+	* 
+
+Single responsibility principle
+	* In the whole project
+
+Open/closed principle
+	* In the whole project
+
+Liskov substitution principle
+	* In the CPU classes
+
+Interface segregation principle
+	* In the whole project
+
+Dependency inversion principle
+	* In the whole project

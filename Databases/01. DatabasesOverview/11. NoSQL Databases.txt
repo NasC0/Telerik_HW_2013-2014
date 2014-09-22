@@ -1,0 +1,1 @@
+A NoSQL or Not only SQL databases store information in a different matter from the standard RDBM systems. Instead of storing data in a table-like manner they use key-value pairs, graphs or simple documents.

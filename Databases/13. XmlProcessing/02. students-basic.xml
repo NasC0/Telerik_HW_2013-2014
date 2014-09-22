@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <name>Pesho</name>
+    <sex>Male</sex>
+    <birthDate>1921-12-21</birthDate>
+    <phone>0231-123-3412</phone>
+    <email>Pesho@pesho.pesho</email>
+    <course>Peshovshtina</course>
+    <specialty>Pesho</specialty>
+    <facultyNumber>FPESHO</facultyNumber>
+    <exams>
+      <exam>
+        <name>PeshoExam</name>
+        <tutor>Pesho Tutor</tutor>
+        <score>70.5</score>
+      </exam>
+      <exam>
+        <name>PeshoExam</name>
+        <tutor>Pesho Tutor</tutor>
+        <score>70.5</score>
+      </exam>
+      <exam>
+        <name>PeshoExam</name>
+        <tutor>Pesho Tutor</tutor>
+        <score>70.5</score>
+      </exam>
+    </exams>
+  </student>
+</students>

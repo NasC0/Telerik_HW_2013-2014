@@ -1,0 +1,16 @@
+﻿header {
+    text-align: center;
+}
+
+header a {
+    color: #00AEEF;
+}
+
+#mainTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    border: 2px solid black;
+}

@@ -1,0 +1,206 @@
+﻿Merge branch 'master' of https://github.com/NasC0/Telerik_HW_2013-2014
+
+Conflicts:
+	JavaScript UI And DOM/03. KineticJS/02. family-tree.js
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+Some JavaScript Homework done
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	new file:   High Quality Code/08. AssertionsAndExceptions/08. AssertionsAndExceptions.jmconfig
+#	new file:   High Quality Code/08. AssertionsAndExceptions/08. AssertionsAndExceptions.sln
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Assertions-Homework/Assertions-Homework.csproj
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Assertions-Homework/AssertionsHomework.cs
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/CSharpExam.cs
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/Exam.cs
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/ExamResult.cs
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/Exceptions-Homework.csproj
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/ExceptionsHomework.cs
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/SimpleMathExam.cs
+#	new file:   High Quality Code/08. AssertionsAndExceptions/Exceptions-Homework/Student.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. Profiler screenshots/Profiler after optimization.png
+#	new file:   High Quality Code/09. CodeOptimizations/01. Profiler screenshots/Profiler before optimization.png
+#	new file:   High Quality Code/09. CodeOptimizations/01. Profiler screenshots/TF has 12 feet.png
+#	new file:   High Quality Code/09. CodeOptimizations/01. Profiler screenshots/Untitled.png
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/App.xaml
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/App.xaml.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Circle.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Images/SolarSurface.JPG
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Images/earth.jpg
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Images/off.design
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Images/off.png
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Images/on.design
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Images/on.png
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/MainWindow.xaml
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/MainWindow.xaml.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/OrbitsCalculator.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/PropertyHolder.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/SolarSystem.csproj
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Sphere.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Surface.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Trackball.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/TrackballDecorator.cs
+#	new file:   High Quality Code/09. CodeOptimizations/01. SolarSystem/Viewport3DDecorator.cs
+#	new file:   High Quality Code/09. CodeOptimizations/02. CompareArithmeticOperationsPrimitiveTypes/02. CompareArithmeticOperationsPrimitiveTypes.csproj
+#	new file:   High Quality Code/09. CodeOptimizations/02. CompareArithmeticOperationsPrimitiveTypes/App.config
+#	new file:   High Quality Code/09. CodeOptimizations/02. CompareArithmeticOperationsPrimitiveTypes/CompareArithmeticOperationsPrimitiveTypes.cs
+#	new file:   High Quality Code/09. CodeOptimizations/02. CompareArithmeticOperationsPrimitiveTypes/Properties/AssemblyInfo.cs
+#	new file:   High Quality Code/09. CodeOptimizations/03. HigherMathematicalOperationsFloatingPointNumbers/03. HigherMathematicalOperationsFloatingPointNumbers.csproj
+#	new file:   High Quality Code/09. CodeOptimizations/03. HigherMathematicalOperationsFloatingPointNumbers/App.config
+#	new file:   High Quality Code/09. CodeOptimizations/03. HigherMathematicalOperationsFloatingPointNumbers/HigherMathematicalOperationsFloatingPointNumbers.cs
+#	new file:   High Quality Code/09. CodeOptimizations/03. HigherMathematicalOperationsFloatingPointNumbers/Properties/AssemblyInfo.cs
+#	new file:   High Quality Code/09. CodeOptimizations/09. CodeOptimizations.jmconfig
+#	new file:   High Quality Code/09. CodeOptimizations/09. CodeOptimizations.jtconfig
+#	new file:   High Quality Code/09. CodeOptimizations/09. CodeOptimizations.sln
+#	modified:   JavaScript UI And DOM/02. Canvas/02. BouncingBall.html
+#	modified:   JavaScript UI And DOM/02. Canvas/02. bouncing-ball.js
+#	modified:   JavaScript UI And DOM/02. Canvas/03. snake.js
+#	modified:   JavaScript UI And DOM/03. KineticJS/02. FamilyTree.html
+#	modified:   JavaScript UI And DOM/03. KineticJS/02. family-tree.js
+#	modified:   JavaScript UI And DOM/03. KineticJS/03. KineticJS.rar
+#	new file:   JavaScript UI And DOM/03. KineticJS/BouncingBallCollision.html
+#	new file:   JavaScript UI And DOM/03. KineticJS/PhysicsJSTest.html
+#	new file:   JavaScript UI And DOM/03. KineticJS/bouncing-ball-collision.js
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/.bower.json
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/MIT-LICENSE.txt
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/README.md
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/bower.json
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/_colors.scss
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/config.rb
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/highlight-nearly-solarized.css
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/highlight-nearly-solarized.scss
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/highlight.css
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/style.css
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/style.old.css
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/css/style.scss
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/debug.json
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/index.html
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/js/page.js
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/docs/layout.jade
+#	new file:   JavaScript UI And DOM/03. KineticJS/bower_components/physicsjs/examples/physicsjs-full.js
+#	new file:   JavaScript UI And DOM/03. KineticJS/scripts/draw-family-tree.js
+#	new file:   JavaScript UI And DOM/03. KineticJS/scripts/process-input-data.js
+#	modified:   JavaScript UI And DOM/03. KineticJS/scripts/tests.js
+#	new file:   JavaScript UI And DOM/04. SVG/01. MEANSvg.html
+#	new file:   JavaScript UI And DOM/04. SVG/02. WindowsStartScreen.html
+#	new file:   JavaScript UI And DOM/04. SVG/04. SVG.rar
+#	new file:   JavaScript UI And DOM/04. SVG/images/HEYYOUGETOFFAMYCLOUD.png
+#	new file:   JavaScript UI And DOM/04. SVG/images/Super-Mario-By-Andrestorres12-Game-Wallpaper.jpg
+#	new file:   JavaScript UI And DOM/04. SVG/images/fish.jpg
+#	new file:   JavaScript UI And DOM/04. SVG/images/pinball.jpg
+#	new file:   JavaScript UI And DOM/04. SVG/images/profile-photo.jpg
+#	new file:   JavaScript UI And DOM/04. SVG/images/sketchbook-logo.jpg
+#	new file:   JavaScript UI And DOM/04. SVG/images/wordpress.jpg
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/01. TelerikLogo.html
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/02. Spiral.html
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/02. spiral-script.js
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/05. Raphael SVG.rar
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/bower_components/raphael/.bower.json
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/bower_components/raphael/dev/amdDev.js
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/bower_components/raphael/dev/require.js
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/bower_components/raphael/license.txt
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/bower_components/raphael/raphael-min.js
+#	new file:   JavaScript UI And DOM/05. Raphael SVG/bower_components/raphael/raphael.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/01. SuperMarioAnimated.html
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/01. super-mario-animations.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/06. CanvasAnimations.rar
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/.bower.json
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/Gruntfile.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/README.md
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/bower-template.json
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/bower.json
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/doc-includes/ContainerParams.txt
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/doc-includes/NodeParams.txt
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/doc-includes/ShapeParams.txt
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/kinetic.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/kinetic.min.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/nodejs-demo.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/package.json
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/presentation-schedule.md
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/server.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Animation.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/BaseLayer.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Canvas.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Container.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Context.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/DragAndDrop.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Factory.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/FastLayer.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Global.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Group.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Layer.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Node.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Shape.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Stage.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Tween.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/Util.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Blur.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Brighten.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Emboss.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Enhance.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Grayscale.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/HSL.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/HSV.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Invert.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Kaleidoscope.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Mask.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Noise.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Pixelate.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Posterize.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/RGB.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Sepia.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Solarize.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/filters/Threshold.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/plugins/Label.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/plugins/Path.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/plugins/RegularPolygon.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/plugins/Star.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/plugins/TextPath.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Arc.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Circle.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Ellipse.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Image.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Line.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Rect.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Ring.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Sprite.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Text.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/kineticjs/src/shapes/Wedge.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/raphael/.bower.json
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/raphael/dev/amdDev.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/raphael/dev/require.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/raphael/license.txt
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/raphael/raphael-min.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/bower_components/raphael/raphael.js
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/images/HEYYOUGETOFFAMYCLOUD.png
+#	new file:   JavaScript UI And DOM/06. CanvasAnimations/images/Super-Mario-By-Andrestorres12-Game-Wallpaper.jpg
+#	new file:   JavaScript UI And DOM/07. DOMOperations/01. RandomDivs.html
+#	new file:   JavaScript UI And DOM/07. DOMOperations/01. random-divs.js
+#	new file:   JavaScript UI And DOM/07. DOMOperations/02. MoveDivsInCircle.html
+#	new file:   JavaScript UI And DOM/07. DOMOperations/02. move-divs-in-circle.js
+#	new file:   JavaScript UI And DOM/07. DOMOperations/03. ColorInputs.html
+#	new file:   JavaScript UI And DOM/07. DOMOperations/03. color-inputs.js
+#	new file:   JavaScript UI And DOM/07. DOMOperations/04. TagCloud.html
+#	new file:   JavaScript UI And DOM/07. DOMOperations/04. tag-cloud.js
+#	new file:   JavaScript UI And DOM/07. DOMOperations/07. DOMOperations.rar
+#	new file:   JavaScript UI And DOM/08. EventsModel/01. TodoList.html
+#	new file:   JavaScript UI And DOM/08. EventsModel/01. todo-list.css
+#	new file:   JavaScript UI And DOM/08. EventsModel/01. todo-list.js
+#	new file:   JavaScript UI And DOM/08. EventsModel/08. EventsModel.rar
+#	new file:   JavaScript UI And DOM/08. EventsModel/images/delete.png
+#
+

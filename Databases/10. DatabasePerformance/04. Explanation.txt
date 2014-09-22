@@ -1,0 +1,8 @@
+To execute my benchmarking process you have to do the following
+1. Execute 04. CreateDatabas.sql script
+2. Execute 04. FillDatabase.sql script - takse about 2-3 minutes
+3. Open up 04. SearchQuery.sql and do the following:
+To generate the test date select the first line of code and hit ctrl + enter (this sets the date)
+Highlight the second line and execute it (ctrl + enter again) and see the value of the generated date
+Highlight the second select statement and execute it. Check the time it takes - on my machine it usually takse about 1.2-1.8 seconds
+Then add the partition select statement (p0 - below 1990, p1 - below 2000, etc) and execute the statement again - it takes about 0.4-0.5 seconds on my machine.

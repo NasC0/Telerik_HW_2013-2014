@@ -1,0 +1,1 @@
+The TwitterFeed task must be launched on a local or web server, otherwise the Twitter authentication won't work. Also, you need to have an account in Twitter.
